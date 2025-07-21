@@ -87,7 +87,7 @@ const OverviewCarousel = () => {
     {
 
       description: 'A comprehensive scholarship program by Hungarian government for international students seeking education in Europe.',
-      image: 'What is Stipendium Hungaricum.jpg',
+      image: 'hu 1.jpg',
       hasDetails: false,
       hasProsCons: true
     },
