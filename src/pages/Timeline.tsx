@@ -106,7 +106,7 @@ const TimelinePage = () => {
     },
     {
       id: 9,
-      date: "September",
+      date: "July - August",
       title: "In Hungary 🎉",
       description: "Arrival in Hungary and start of your academic journey! Welcome to Hungary! Your dream becomes reality."
     }
