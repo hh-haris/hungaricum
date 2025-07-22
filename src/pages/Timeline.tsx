@@ -96,7 +96,7 @@ const TimelinePage = () => {
       id: 7,
       date: "June",
       title: "Acceptance",
-      description: "Receive official acceptance letter from Hungarian universities. Congratulations! Your scholarship journey begins."
+      description: "After the entrance exam and interview, you will receive an acceptance from the universities based on your performance. However, this is not the final decision on whether the scholarship is awarded. You will need to wait for the official award confirmation from the Tempus Foundation."
     },
     {
       id: 8,
