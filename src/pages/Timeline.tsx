@@ -108,7 +108,7 @@ const TimelinePage = () => {
       id: 9,
       date: "July - August",
       title: "Visa",
-      description: "Arrival in Hungary and start of your academic journey! Welcome to Hungary! Your dream becomes reality."
+      description: "The final step is to begin the visa process and complete other necessary formalities. Prepare all required documents and schedule an appointment at the embassy to obtain a Hungarian visa. This process usually takes place from July to the end of August."
     }
   ];
 
