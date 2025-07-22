@@ -76,7 +76,7 @@ const TimelinePage = () => {
     },
     {
       id: 3,
-      date: "January 31",
+      date: "February - March",
       title: "Deadline",
       description: "Final deadline for application submission. No extensions granted. Critical: Submit all applications before this date."
     },
