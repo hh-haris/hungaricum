@@ -83,7 +83,7 @@ const TimelinePage = () => {
       id: 4,
       date: "February - March",
       title: "Nomination",
-      description: "HEC nomination process based on USAT scores and application quality. Wait for HEC notification and check status regularly."
+      description: "HEC nominates students primarily on the basis of USAT marks and the federal quota system, usually by the end of February or the beginning of March dates may vary."
     },
     {
       id: 5,
