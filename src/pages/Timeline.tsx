@@ -78,7 +78,7 @@ const TimelinePage = () => {
       id: 3,
       date: "February - March",
       title: "Nomination",
-      description: "HEC nominates students primarily on the basis of USAT marks and the federal quota system, usually by the end of February or the beginning of March (dates may vary).
+      description: "HEC nominates students primarily on the basis of USAT marks and the federal quota system, usually by the end of February or the beginning of March (dates may vary)".
     {
       id: 4,
       date: "February",
