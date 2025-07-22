@@ -139,7 +139,7 @@ const TimelinePage = () => {
                 </p>
               </div>
               
-              <div className="grid grid-cols-4 gap-12">
+              <div className="grid grid-cols-4 gap-30">
                 <div className="space-y-1">
                   <div className="text-2xl font-bold text-brand-orange">
                     {timeLeft.days}
