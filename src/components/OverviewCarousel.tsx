@@ -92,7 +92,7 @@ const OverviewCarousel = () => {
       hasProsCons: true
     },
     {
-      description: 'Pakistani citizens with no dual nationality, who are above 18 years of age, have completed FSc or an equivalent qualification, and and possess valid USAT scores are eligible to apply. Click Details to see more.',
+      description: 'Pakistani citizens with no dual nationality, who are above 18 years of age, have completed FSc or an equivalent qualification, and and possess valid USAT scores are eligible to apply.',
       image: 'hu 3.jpg',
       hasDetails: true
     },
