@@ -114,7 +114,7 @@ const TimelinePage = () => {
       id: 10,
       date: "September",
       title: "Arrival in Hungary 🎉",
-      description: "After visa approval, candidates arrive in Hungary in September. And that’s it—congratulations! 🎉"
+      description: "After visa approval, candidates arrive in Hungary in September. And that’s it - congratulations! 🎉"
     }
   ];
 
