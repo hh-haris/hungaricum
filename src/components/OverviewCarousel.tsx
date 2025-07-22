@@ -86,7 +86,7 @@ const OverviewCarousel = () => {
   const slides = [
     {
 
-      description: 'A comprehensive scholarship program by Hungarian government for international students seeking education in Europe.',
+      description: 'The Stipendium Hungaricum is a prestigious, fully funded opportunity that allows Pakistani students including bachelors, to study in Hungary in the heart of Europe.',
       image: 'hu 1.jpg',
       hasDetails: false,
       hasProsCons: true
