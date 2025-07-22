@@ -61,7 +61,7 @@ const TimelinePage = () => {
         >
           Tempus Public Foundation portal
         </a>{" "}
-        and{" "}
+        on the Hungarian side and the {" "}
         <a
           href="https://apply.stipendiumhungaricum.hu/"
           target="_blank"
