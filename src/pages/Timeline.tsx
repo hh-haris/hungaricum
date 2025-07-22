@@ -44,7 +44,7 @@ const TimelinePage = () => {
       id: 1,
       date: "January - November",
       title: "USAT",
-      description: "University Selection Aptitude Test - The first crucial step in your scholarship journey. Register early for preferred test dates and prepare according to your field of study."
+      description: "The Undergraduate Studies Admission/Aptitude Test is held four times a year. It is the first and most crucial step in the SHS journey, as HEC nominates candidates for SHS based on their USAT scores. For a detailed guide, visit the USAT page."
     },
     {
       id: 2,
