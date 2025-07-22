@@ -93,7 +93,7 @@ const OverviewCarousel = () => {
     },
     {
       description: 'Pakistani students who have completed their intermediate education and meet academic requirements can apply.',
-      image: 'Who can apply.jpg',
+      image: 'hu 3.jpg',
       hasDetails: true
     },
     {
