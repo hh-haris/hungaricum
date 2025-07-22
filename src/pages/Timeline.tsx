@@ -50,7 +50,29 @@ const TimelinePage = () => {
       id: 2,
       date: "November - January",
       title: "Apply",
-      description: "Online application submission through the official DreamApply portal. Complete all required sections and upload necessary documents."
+      description: (
+      <>
+        To apply for Stipendium Hungaricum, applicants must submit their applications through two separate portals:{" "}
+        <a
+          href="https://hec.gov.pk/english/scholarshipsgrants/Pages/Stipendium-Hungaricum-Scholarship-Program.aspx"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-brand-orange font-medium hover:underline"
+        >
+          HEC portal
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://apply.stipendiumhungaricum.hu/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-brand-orange font-medium hover:underline"
+        >
+          SHS Apply portal
+        </a>
+        . Complete all required sections and upload necessary documents.
+      </>
+    )
     },
     {
       id: 3,
