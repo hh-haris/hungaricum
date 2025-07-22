@@ -87,7 +87,7 @@ const TimelinePage = () => {
       description: "After nomination, a required medical certificate must be submitted before 15 April. The official template is available on the official website."
     },
     {
-      id: 6,
+      id: 5,
       date: "April-May",
       title: "Entrance Exams",
       description: "University-specific entrance tests and interviews if required. Prepare for tests and attend online/offline interviews."
