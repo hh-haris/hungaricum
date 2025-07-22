@@ -89,7 +89,7 @@ const TimelinePage = () => {
     {
       id: 5,
       date: "April-May",
-      title: "Entrance Exams",
+      title: "Entrance Exam/Interview",
       description: "University-specific entrance tests and interviews if required. Prepare for tests and attend online/offline interviews."
     },
     {
