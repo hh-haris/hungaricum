@@ -102,7 +102,7 @@ const TimelinePage = () => {
       id: 8,
       date: "June - July",
       title: "Final Selection",
-      description: "Apply for student visa at Hungarian embassy or consulate. Gather required documents and schedule embassy appointment."
+      description: "From the end of June to mid July, the Tempus Foundation announces the final decision on whether a candidate has been awarded the scholarship or not."
     },
     {
       id: 9,
