@@ -54,12 +54,12 @@ const TimelinePage = () => {
       <>
         To apply for SHS, applicants are required to submit their applications at two separate portals. These are the {" "}
         <a
-          href="https://hec.gov.pk/english/scholarshipsgrants/Pages/Stipendium-Hungaricum-Scholarship-Program.aspx"
+          href="https://apply.stipendiumhungaricum.hu"
           target="_blank"
           rel="noopener noreferrer"
           className="text-brand-orange font-medium hover:underline"
         >
-          HEC portal
+          Tempus Public Foundation portal
         </a>{" "}
         and{" "}
         <a
