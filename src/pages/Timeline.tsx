@@ -122,7 +122,7 @@ const TimelinePage = () => {
             className="space-y-8"
           >
             {/* Header */}
-            <div className="text-center space-y-20">
+            <div className="text-center space-y-48">
               <h1 className="font-secondary font-bold text-2xl text-brand-orange">
                 Application Timeline
               </h1>
