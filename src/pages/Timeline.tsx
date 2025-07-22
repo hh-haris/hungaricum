@@ -129,7 +129,7 @@ const TimelinePage = () => {
             </div>
 
             {/* Countdown - Removed box styling */}
-            <div className="text-center space-y-5">
+            <div className="text-center space-y-2">
               <div className="space-y-1">
                 <h2 className="font-secondary font-semibold text-lg text-foreground">
                   Time Left for Hungary Journey
