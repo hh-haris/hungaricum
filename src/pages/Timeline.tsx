@@ -42,9 +42,9 @@ const TimelinePage = () => {
   const timelineItems = [
     {
       id: 1,
-      date: "January 2025 - February 2026",
+      date: "January - November",
       title: "USAT",
-      description: "The Undergraduate Studies Admission/Aptitude Test is held four times a year. It is the first and most crucial step in the SHS journey, as HEC nominates candidates for SHS based on their USAT scores. For a detailed guide, visit the USAT page."
+      description: "The Undergraduate Studies Admission/Aptitude Test is the first and most crucial step in the SHS journey. It is conducted four times a year and based on USAT scores, HEC nominates candidates for SHS. For a detailed guide, visit the USAT page."
     },
     {
       id: 2,
