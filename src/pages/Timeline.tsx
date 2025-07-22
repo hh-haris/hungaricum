@@ -101,7 +101,7 @@ const TimelinePage = () => {
     {
       id: 8,
       date: "June - July",
-      title: "Visa",
+      title: "Final Selection",
       description: "Apply for student visa at Hungarian embassy or consulate. Gather required documents and schedule embassy appointment."
     },
     {
