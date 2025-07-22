@@ -109,6 +109,12 @@ const TimelinePage = () => {
       date: "July - August",
       title: "Visa",
       description: "The final step is to begin the visa process and complete other necessary formalities. Prepare all required documents and schedule an appointment at the embassy to obtain a Hungarian visa. This process usually takes place from July to the end of August."
+    },
+    {
+      id: 10,
+      date: "July - August",
+      title: "Visa",
+      description: "The final step is to begin the visa process and complete other necessary formalities. Prepare all required documents and schedule an appointment at the embassy to obtain a Hungarian visa. This process usually takes place from July to the end of August."
     }
   ];
 
