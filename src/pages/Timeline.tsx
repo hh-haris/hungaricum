@@ -90,7 +90,7 @@ const TimelinePage = () => {
       id: 5,
       date: "March - May",
       title: "Entrance Exam/Interview",
-      description: "This period marks the second stage of selection, during which the preferred universities may contact candidates for an entrance exam, an interview, or both, depending on the university. It typically spans from mid‑March to the end of May."
+      description: "This period marks the second stage of selection, during which the preferred universities may contact candidates for an entrance exam, an interview, or both, depending on the university. It typically spans from mid March to the end of May."
     },
     {
       id: 7,
