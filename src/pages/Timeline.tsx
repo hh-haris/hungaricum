@@ -78,8 +78,7 @@ const TimelinePage = () => {
       id: 3,
       date: "February - March",
       title: "Nomination",
-      description: "Final deadline for application submission. No extensions granted. Critical: Submit all applications before this date."
-    },
+      description: "HEC nominates students primarily on the basis of USAT marks and the federal quota system, usually by the end of February or the beginning of March (dates may vary).
     {
       id: 4,
       date: "February",
