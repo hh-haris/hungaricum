@@ -68,9 +68,9 @@ const TimelinePage = () => {
           rel="noopener noreferrer"
           className="text-brand-orange font-medium hover:underline"
         >
-          SHS Apply portal
+          HEC portal
         </a>
-        . Complete all required sections and upload necessary documents.
+        on the Pakistan side. The application period typically opens in mid November and closes on 15 January.
       </>
     )
     },
