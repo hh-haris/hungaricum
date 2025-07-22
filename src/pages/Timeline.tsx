@@ -187,7 +187,7 @@ const TimelinePage = () => {
             </div>
 
             {/* Timeline */}
-            <div className="mt-23">
+            <div className="mt-123">
               <Timeline defaultValue={3}>
                 {timelineItems.map((item) => (
                   <TimelineItem key={item.id} step={item.id}>
