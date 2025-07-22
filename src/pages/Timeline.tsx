@@ -151,7 +151,7 @@ const TimelinePage = () => {
             </div>
 
             {/* Countdown - Removed box styling */}
-            <div className="text-center space-y-25">
+            <div className="text-center space-y-2">
               <div className="space-y-1">
                 <p className="text-sm text-muted-foreground">
                    Countdown to 1 September 2026, 9:00 AM
