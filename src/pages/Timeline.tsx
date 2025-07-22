@@ -156,9 +156,6 @@ const TimelinePage = () => {
                 <h2 className="font-secondary font-semibold text-lg text-foreground">
                   Time Left for Hungary Journey
                 </h2>
-                <p className="text-sm text-muted-foreground">
-                  Flight to Hungary - Sep 01, 2026 at 12:00 PM
-                </p>
               </div>
               
               <div className="grid grid-cols-4 gap-8">
