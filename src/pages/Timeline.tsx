@@ -126,9 +126,6 @@ const TimelinePage = () => {
               <h1 className="font-secondary font-bold text-2xl text-brand-orange">
                 Application Timeline
               </h1>
-              <p className="font-primary text-muted-foreground text-sm">
-                Step-by-step timeline for your scholarship journey
-              </p>
             </div>
 
             {/* Countdown - Removed box styling */}
