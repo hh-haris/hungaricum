@@ -154,7 +154,7 @@ const TimelinePage = () => {
             <div className="text-center space-y-2">
               <div className="space-y-1">
                 <p className="text-sm text-muted-foreground">
-                  Flight to Hungary - Sep 01, 2026 at 12:00 PM
+                   Countdown to 1 September 2026, 9:00 AM
                 </p>
               </div>
               
