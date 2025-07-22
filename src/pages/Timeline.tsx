@@ -81,7 +81,7 @@ const TimelinePage = () => {
       description: "HEC nominates students primarily on the basis of USAT marks and the federal quota system, usually by the end of February or the beginning of March dates may vary."
     },
     {
-      id: 5,
+      id: 4,
       date: "April",
       title: "Medical Certificate",
       description: "After nomination, a required medical certificate must be submitted before 15 April. The official template is available on the official website."
