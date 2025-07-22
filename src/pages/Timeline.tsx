@@ -68,7 +68,7 @@ const TimelinePage = () => {
           rel="noopener noreferrer"
           className="text-brand-orange font-medium hover:underline"
         >
-         HEC portal 
+         HEC portal {" "}
         </a>
          on the Pakistan side. The application period typically opens in mid November and closes on 15 January. For complete details, visit the Apply page.
       </>
