@@ -84,7 +84,7 @@ const TimelinePage = () => {
       id: 5,
       date: "April",
       title: "Medical Certificate",
-      description: "Complete health examination and obtain medical fitness certificate. Visit approved medical centers and complete all required tests."
+      description: "After nomination, a required medical certificate must be submitted before 15 April. The official template is available on the website."
     },
     {
       id: 6,
