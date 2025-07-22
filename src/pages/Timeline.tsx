@@ -48,7 +48,7 @@ const TimelinePage = () => {
     },
     {
       id: 2,
-      date: "November - 15 January",
+      date: "November - January",
       title: "Apply",
       description: "Online application submission through the official DreamApply portal. Complete all required sections and upload necessary documents."
     },
