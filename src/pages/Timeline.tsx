@@ -15,7 +15,7 @@ const TimelinePage = () => {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const targetDate = new Date('2026-09-01T8:00:00');
+      const targetDate = new Date('2026-09-01T08:00:00');
       const now = new Date();
       const difference = targetDate.getTime() - now.getTime();
 
