@@ -42,7 +42,7 @@ const TimelinePage = () => {
   const timelineItems = [
     {
       id: 1,
-      date: "October",
+      date: "January - November",
       title: "USAT",
       description: "University Selection Aptitude Test - The first crucial step in your scholarship journey. Register early for preferred test dates and prepare according to your field of study."
     },
