@@ -84,7 +84,7 @@ const TimelinePage = () => {
       id: 5,
       date: "April",
       title: "Medical Certificate",
-      description: "After nomination, a required medical certificate must be submitted before 15 April. The official template is available on the website."
+      description: "After nomination, a required medical certificate must be submitted before 15 April. The official template is available on the official website."
     },
     {
       id: 6,
