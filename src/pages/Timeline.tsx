@@ -52,7 +52,7 @@ const TimelinePage = () => {
       title: "Apply",
       description: (
       <>
-        To apply for Stipendium Hungaricum, applicants must submit their applications through two separate portals:{" "}
+        To apply for SHS, applicants are required to submit their applications at two separate portals. These are the {" "}
         <a
           href="https://hec.gov.pk/english/scholarshipsgrants/Pages/Stipendium-Hungaricum-Scholarship-Program.aspx"
           target="_blank"
