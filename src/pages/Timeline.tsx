@@ -63,7 +63,7 @@ const TimelinePage = () => {
         </a>{" "}
         on the Hungarian side and the {" "}
         <a
-          href="https://apply.stipendiumhungaricum.hu/"
+          href="http://scholarship.hec.gov.pk"
           target="_blank"
           rel="noopener noreferrer"
           className="text-brand-orange font-medium hover:underline"
