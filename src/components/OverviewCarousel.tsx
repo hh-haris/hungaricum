@@ -101,19 +101,6 @@ const OverviewCarousel = () => {
     setOpenFAQ(openFAQ === index ? null : index);
   };
   return <div className="relative">
-      {/* Slide Indicators - Enhanced with animations */}
-      <div className="flex justify-center space-x-2 mb-6">
-        {Array.from({
-        length: count
-      }).map((_, index) => <motion.button key={index} onClick={() => api?.scrollTo(index)} className={`w-2 h-2 rounded-full smooth-transition ${index === current - 1 ? 'bg-brand-blue' : 'bg-brand-gray'}`} whileTap={{
-        scale: 0.9
-      }} animate={{
-        scale: index === current - 1 ? 1.2 : 1
-      }} transition={{
-        duration: 0.2
-      }} />)}
-      </div>
-
       <Carousel setApi={setApi} className="w-full">
         <CarouselContent>
           {slides.map((slide, index) => <CarouselItem key={index} className="basis-full">
@@ -225,6 +212,19 @@ const OverviewCarousel = () => {
             </CarouselItem>)}
         </CarouselContent>
       </Carousel>
+
+      {/* Slide Indicators - Enhanced with animations */}
+      <div className="flex justify-center space-x-2 mt-6">
+        {Array.from({
+        length: count
+      }).map((_, index) => <motion.button key={index} onClick={() => api?.scrollTo(index)} className={`w-2 h-2 rounded-full smooth-transition ${index === current - 1 ? 'bg-brand-blue' : 'bg-brand-gray'}`} whileTap={{
+        scale: 0.9
+      }} animate={{
+        scale: index === current - 1 ? 1.2 : 1
+      }} transition={{
+        duration: 0.2
+      }} />)}
+      </div>
 
       {/* Details Modal - Using same UI as original */}
       <AnimatePresence>
