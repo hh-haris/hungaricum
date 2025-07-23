@@ -37,7 +37,7 @@ const OverviewCarousel = () => {
     });
   }, [api]);
 
-  const coverageData = [
+ const coverageData: CoverageItem[] = [
   {
     name: 'Full Tuition Fee',
     description: 'Covers 100% of your university tuition for the entire study period.'
@@ -59,6 +59,7 @@ const OverviewCarousel = () => {
     description: 'One-time travel allowance to and from Hungary.'
   }
 ];
+
 
   const faqData = [
     {
