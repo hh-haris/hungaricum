@@ -40,6 +40,7 @@ const OverviewCarousel = () => {
   const coverageData: CoverageItem[] = [
     {
       name: 'Full Tuition Fee',
+      description: 'Monthly allowance for living and personal expenses.'
       amount: { huf: 0, pkr: 0 }
     },
     {
