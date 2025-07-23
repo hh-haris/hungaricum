@@ -37,28 +37,28 @@ const OverviewCarousel = () => {
     });
   }, [api]);
 
-  const coverageData: CoverageItem[] = [
-    {
-      name: 'Full Tuition Fee',
-      amount: { huf: 0, pkr: 0 }
-    },
-    {
-      name: 'Accommodation',
-      amount: { huf: 40000, pkr: 35000 }
-    },
-    {
-      name: 'Medical Insurance',
-      amount: { huf: 65000, pkr: 57000 }
-    },
-    {
-      name: 'Stipend',
-      amount: { huf: 43700, pkr: 38000 }
-    },
-    {
-      name: 'Ticket',
-      amount: { huf: 100000, pkr: 87000 }
-    }
-  ];
+  const coverageData = [
+  {
+    name: 'Full Tuition Fee',
+    description: 'Covers 100% of your university tuition for the entire study period.'
+  },
+  {
+    name: 'Accommodation',
+    description: 'Provides dormitory housing or a contribution toward rent.'
+  },
+  {
+    name: 'Medical Insurance',
+    description: 'Includes mandatory health coverage throughout your stay.'
+  },
+  {
+    name: 'Stipend',
+    description: 'Monthly allowance for living and personal expenses.'
+  },
+  {
+    name: 'Ticket',
+    description: 'One-time travel allowance to and from Hungary.'
+  }
+];
 
   const faqData = [
     {
