@@ -13,7 +13,6 @@ interface CurrencyAmount {
 interface CoverageItem {
   name: string;
   amount: CurrencyAmount;
-  description: string;
 }
 
 const OverviewCarousel = () => {
@@ -38,34 +37,28 @@ const OverviewCarousel = () => {
     });
   }, [api]);
 
- const coverageData: CoverageItem[] = [
-  {
-    name: 'Full Tuition Fee',
-    description: 'Covers 100% of your university tuition for the entire study period.',
-    amount: { huf: 0, pkr: 0 }
-  },
-  {
-    name: 'Accommodation',
-    description: 'Provides dormitory housing or a contribution toward rent.',
-    amount: { huf: 0, pkr: 0 }
-  },
-  {
-    name: 'Medical Insurance',
-    description: 'Includes mandatory health coverage throughout your stay.',
-    amount: { huf: 0, pkr: 0 }
-  },
-  {
-    name: 'Stipend',
-    description: 'Monthly allowance for living and personal expenses.',
-    amount: { huf: 0, pkr: 0 }
-  },
-  {
-    name: 'Ticket',
-    description: 'One-time travel allowance to and from Hungary.',
-    amount: { huf: 0, pkr: 0 }
-  }
-];
-
+  const coverageData: CoverageItem[] = [
+    {
+      name: 'Full Tuition Fee',
+      amount: { huf: 0, pkr: 0 }
+    },
+    {
+      name: 'Accommodation',
+      amount: { huf: 0, pkr: 0 }
+    },
+    {
+      name: 'Medical Insurance',
+      amount: { huf: 0, pkr: 0 }
+    },
+    {
+      name: 'Stipend',
+      amount: { huf: 0, pkr: 0 }
+    },
+    {
+      name: 'Ticket',
+      amount: { huf: 100000, pkr: 87000 }
+    }
+  ];
 
   const faqData = [
     {
