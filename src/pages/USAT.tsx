@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronRight, ChevronUp, X } from 'lucide-react';
+import { ChevronRight, ChevronUp, X, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import { Card, CardContent } from '../components/ui/card';
@@ -147,6 +147,21 @@ const USAT = () => {
               <p className="font-primary text-muted-foreground text-sm">
                 Undergraduate Studies Aptitude Test, is the basic requirement for applying this scholarship. Base on it HEC nominate the candidates for scholarship.
               </p>
+              
+              {/* Warning Section */}
+              <div className="bg-brand-light-gray border-l-4 border-brand-orange p-4 rounded-lg">
+                <div className="flex items-start space-x-3">
+                  <AlertTriangle className="h-5 w-5 text-brand-orange flex-shrink-0 mt-0.5" />
+                  <div className="space-y-2">
+                    <h3 className="font-secondary font-semibold text-brand-orange">
+                      Important Disclaimer
+                    </h3>
+                    <p className="font-primary text-muted-foreground text-sm leading-relaxed">
+                      USAT scores are crucial for your scholarship nomination. Ensure you prepare thoroughly and attempt the test category that aligns with your academic background. Multiple attempts are allowed, so use them strategically to achieve your best score.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Overview Section */}
@@ -346,22 +361,42 @@ const USAT = () => {
                   <p className="font-primary text-muted-foreground text-sm">
                     Undergraduate Studies Aptitude Test, is the basic requirement for applying this scholarship. Base on it HEC nominate the candidates for scholarship.
                   </p>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">Total Marks</h4>
-                      <p className="text-muted-foreground">100</p>
-                    </div>
+                  
+                  {/* Marks Table */}
+                  <div className="space-y-2">
+                    <h4 className="font-secondary font-semibold text-brand-blue">Test Structure</h4>
+                    <Table>
+                      <TableHeader>
+                        <TableRow className="bg-brand-light-green">
+                          <TableHead className="font-secondary font-semibold text-foreground">Component</TableHead>
+                          <TableHead className="font-secondary font-semibold text-foreground">Marks</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        <TableRow>
+                          <TableCell className="font-medium">Total Marks</TableCell>
+                          <TableCell>100</TableCell>
+                        </TableRow>
+                        <TableRow>
+                          <TableCell className="font-medium">MCQs</TableCell>
+                          <TableCell>75</TableCell>
+                        </TableRow>
+                        <TableRow>
+                          <TableCell className="font-medium">Argumentative Essay</TableCell>
+                          <TableCell>15</TableCell>
+                        </TableRow>
+                        <TableRow>
+                          <TableCell className="font-medium">Narrative Essay</TableCell>
+                          <TableCell>10</TableCell>
+                        </TableRow>
+                      </TableBody>
+                    </Table>
+                  </div>
+                  
+                  <div className="grid grid-cols-2 gap-4 mt-6">
                     <div>
                       <h4 className="font-secondary font-semibold text-brand-blue mb-1">Safe Marks</h4>
                       <p className="text-muted-foreground">75+</p>
-                    </div>
-                    <div>
-                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">MCQs</h4>
-                      <p className="text-muted-foreground">75</p>
-                    </div>
-                    <div>
-                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">Essays</h4>
-                      <p className="text-muted-foreground">Argumentative | 15<br />Narrative | 10 Marks</p>
                     </div>
                     <div>
                       <h4 className="font-secondary font-semibold text-brand-blue mb-1">Duration</h4>
