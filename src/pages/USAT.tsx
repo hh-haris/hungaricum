@@ -154,10 +154,10 @@ const USAT = () => {
                   <AlertTriangle className="h-5 w-5 text-brand-orange flex-shrink-0 mt-0.5" />
                   <div className="space-y-2">
                     <h3 className="font-secondary font-semibold text-brand-orange">
-                      Disclaimer
+                      ⚠️ Important Advisory
                     </h3>
                     <p className="font-primary text-muted-foreground text-sm leading-relaxed">
-                      USAT scores are crucial for your scholarship nomination. Ensure you prepare thoroughly and attempt the test category that aligns with your academic background. Multiple attempts are allowed, so use them strategically to achieve your best score.
+                     It is strongly recommended that you select the same USAT category that you studied during your F.Sc. or equivalent background. While you are technically allowed to choose a different category except for Medical background students, it is not advisable. 
                     </p>
                   </div>
                 </div>
