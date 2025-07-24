@@ -23,7 +23,7 @@ const RegistrationGuide = () => {
       step: "Step 01",
       title: "Create Account",
       description: "Visit the official HEC USAT portal & create your account with valid email and personal information.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop"
+      image: "Sc 1.jpg"
     },
     {
       step: "Step 02", 
