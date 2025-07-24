@@ -222,7 +222,7 @@ const OverviewCarousel = () => {
       }} animate={{
         scale: index === current - 1 ? 1.2 : 1
       }} transition={{
-        duration: 0.2
+        duration: 0.5
       }} />)}
       </div>
 
