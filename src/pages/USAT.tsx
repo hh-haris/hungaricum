@@ -145,7 +145,7 @@ const USAT = () => {
                 USAT GUIDE
               </h1>
               <p className="font-primary text-muted-foreground text-sm">
-                Undergraduate Studies Aptitude Test, is the basic requirement for applying this scholarship. Base on it HEC nominate the candidates for scholarship.
+                The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
               </p>
               
               {/* Warning Section */}
