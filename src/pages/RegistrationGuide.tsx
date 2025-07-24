@@ -29,7 +29,7 @@ const RegistrationGuide = () => {
       step: "Step 02", 
       title: "Fill Personal Information",
       description: "Complete your personal details including CNIC, educational background, and contact information accurately.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop"
+      image: "Sc 1.jpg"
     },
     {
       step: "Step 03",
