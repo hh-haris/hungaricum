@@ -218,7 +218,7 @@ const OverviewCarousel = () => {
         {Array.from({
         length: count
       }).map((_, index) => <motion.button key={index} onClick={() => api?.scrollTo(index)} className={`w-2 h-2 rounded-full smooth-transition ${index === current - 1 ? 'bg-brand-blue' : 'bg-brand-gray'}`} whileTap={{
-        scale: 0.9
+        scale: 0.8
       }} animate={{
         scale: index === current - 1 ? 1.2 : 1
       }} transition={{
