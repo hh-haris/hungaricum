@@ -157,7 +157,10 @@ const USAT = () => {
                       ⚠️ Important Advisory
                     </h3>
                     <p className="font-primary text-muted-foreground text-sm leading-relaxed">
-                     It is strongly recommended that you select the same USAT category that you studied during your F.Sc. or equivalent background. While you are technically allowed to choose a different category except for Medical background students, it is not advisable. 
+                     It is strongly recommended that you select the same USAT category that you studied during your F.Sc. or equivalent background. While you are technically allowed to choose a different category except for Medical background students, it is not advisable. ⚠️ Do not message or generate tickets with HEC about this issue. Previous candidates already made this mistake. HEC responded with the same answer we are giving you here 'you may choose a different category except Medical' but because of the large number of repeated queries again, they could at any time issue an official restriction, forcing everyone to choose only the same category as their previous studies. For your own benefit and to avoid harming others, please follow this recommendation:
+✅ Choose the same USAT category as your F.Sc. or equivalent background.
+❌ Do not contact HEC repeatedly on this matter.
+                      Take this advisory seriously—failing to do so could result in unnecessary complications or risks for everyone.
                     </p>
                   </div>
                 </div>
