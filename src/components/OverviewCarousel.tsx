@@ -214,7 +214,7 @@ const OverviewCarousel = () => {
       </Carousel>
 
       {/* Slide Indicators - Enhanced with animations */}
-      <div className="flex justify-center space-x-2 mb-6">
+      <div className="flex justify-center space-x-6 mb-6">
         {Array.from({
         length: count
       }).map((_, index) => <motion.button key={index} onClick={() => api?.scrollTo(index)} className={`w-2 h-2 rounded-full smooth-transition ${index === current - 1 ? 'bg-brand-blue' : 'bg-brand-gray'}`} whileTap={{
