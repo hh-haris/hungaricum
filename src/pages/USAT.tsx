@@ -145,7 +145,7 @@ const USAT = () => {
                 USAT GUIDE
               </h1>
               <p className="font-primary text-muted-foreground text-sm">
-                The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
+                The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey. The USAT is conducted four times a year. Although general dates are provided for guidance, they may vary as HEC can change the schedule at any time. We are not responsible for any such changes. A general overview of the test is given below.
               </p>
               
               {/* Warning Section */}
