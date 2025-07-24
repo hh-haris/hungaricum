@@ -402,10 +402,6 @@ const USAT = () => {
                       <h4 className="font-secondary font-semibold text-brand-blue mb-1">Duration</h4>
                       <p className="text-muted-foreground">100+40 Min</p>
                     </div>
-                    <div>
-                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">Marking</h4>
-                      <p className="text-muted-foreground">No negative marking</p>
-                    </div>
                   </div>
                   
                   <div className="space-y-2 mt-6">
