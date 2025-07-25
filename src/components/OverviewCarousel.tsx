@@ -202,7 +202,7 @@ const OverviewCarousel = () => {
                         {slide.hasProsCons && <motion.button onClick={() => setShowProsCons(true)} whileTap={{
                       scale: 0.95
                     }} className="text-brand-blue font-primary font-medium active:text-brand-orange smooth-transition mx-[20px] my-[24px]">
-                            Pros/Cons
+                            Insights
                           </motion.button>}
                       </div>
                     </div>
