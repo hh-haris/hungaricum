@@ -360,7 +360,7 @@ const OverviewCarousel = () => {
             key={idx}
             className="flex items-start space-x-2 p-1 rounded-md hover:bg-brand-light-gray transition-colors duration-200"
           >
-            <span className="mt-1 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0" />
+            <span className="mt-1 h-1.5 w-1.5 rounded-full bg-brand-orange flex-shrink-0" />
             <span className="font-primary text-sm leading-snug text-muted-foreground">
               {point}
             </span>
