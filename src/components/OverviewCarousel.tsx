@@ -342,7 +342,7 @@ const OverviewCarousel = () => {
               <div className="p-4 overflow-y-auto max-h-96">
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-secondary font-semibold text-brand-blue mb-2">Cons</h4>
+                    <h4 className="font-secondary font-semibold text-brand-blue mb-2">Pros</h4>
                     <ul className="space-y-1 text-sm text-muted-foreground">
                       <li>• Language barrier initially</li>
                       <li>• Different cultural environment</li>
