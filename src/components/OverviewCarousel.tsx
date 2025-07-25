@@ -352,8 +352,7 @@ const OverviewCarousel = () => {
           "The scholarship provides a Schengen visa, enabling travel across Europe.",
           "Living abroad builds independence, confidence, and lifelong skills.",
           "You study in a diverse, multicultural environment with global peers.",
-          "The Pakistani student community in Hungary is supportive and close‑knit.",
-          "The Pakistani student community in Hungary is supportive and close‑knit.",
+          "The Pakistani student community in Hungary is supportive and close knit.",
           "IELTS is often not required, making it easier to apply."
         ].map((point, idx) => (
           <li
