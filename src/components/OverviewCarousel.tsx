@@ -297,6 +297,11 @@ const OverviewCarousel = () => {
                       <li>• Above the age of 18, no max limit.</li>
                     </ul>
                   </div>
+                  
+                  <div>
+                    
+                  </div>
+                </div>
               </div>
             </motion.div>
           </motion.div>}
