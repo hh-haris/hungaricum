@@ -375,7 +375,7 @@ const OverviewCarousel = () => {
       </h4>
       <ul className="space-y-1.5">
         {[
-          "High quality European education.",
+          "The monthly stipend often isn’t enough to cover all expenses, so you’ll need extra personal funds.",
           "Full scholarship coverage.",
           "Beautiful and safe country.",
           "Gateway to Europe.",
