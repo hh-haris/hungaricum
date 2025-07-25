@@ -52,15 +52,15 @@ const OverviewCarousel = () => {
       pkr: 0
     }
   }, {
-    name: 'Stipend',
-    description: 'Monthly allowance for living and personal expenses.',
+    name: 'Medical Insurance',
+    description: 'Full medical insurance provided at no cost to the student.',
     amount: {
       huf: 0,
       pkr: 0
     }
   }, {
     name: 'Ticket',
-    description: 'Round-trip airfare between Pakistan and Hungary.',
+    description: 'HEC covers a one time travel ticket to Hungary.',
     amount: {
       huf: 100000,
       pkr: 87000
