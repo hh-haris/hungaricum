@@ -272,35 +272,29 @@ const OverviewCarousel = () => {
                 </button>
               </div>
               
- {/* Pros Section */}
-    <div>
-      <h4 className="font-secondary font-semibold text-brand-blue mb-2 text-lg">
-        Pros
-      </h4>
-      <ul className="space-y-1.5">
-        {[
-          "Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available.",
-          "The scholarship provides a Schengen visa, enabling travel across Europe.",
-          "Living abroad builds independence, confidence, and lifelong skills.",
-          "You study in a diverse, multicultural environment with global peers.",
-          "The Pakistani student community in Hungary is supportive and close knit.",
-          "IELTS is often not required, making it easier to apply."
-        ].map((point, idx) => (
-          <li
-            key={idx}
-            className="flex items-start space-x-2 p-1 rounded-md hover:bg-brand-light-gray transition-colors duration-200"
-          >
-            <span className="mt-1 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0" />
-            <span className="font-primary text-sm leading-snug text-muted-foreground">
-              {point}
-            </span>
-          </li>
-        ))}
-      </ul>
-    </div>
+         <ul className="space-y-1.5">
+  {[
+    "Must be a Pakistani or AJ&K citizen without any other nationality.",
+    "Must be 18 years old or above.",
+    "Must have completed F.Sc., F.A., A-Level, or an equivalent qualification.",
+    "Students awaiting their final year results are also eligible to apply.",
+    "Must have valid USAT marks (a score of 75 or above is recommended).",
+    "Must have all required documents complete.",
+    "A well prepared Letter of Motivation is required.",
+    "Must submit a medical certificate of satisfactory health."
+  ].map((req, idx) => (
+    <li
+      key={idx}
+      className="flex items-start space-x-3 p-2 rounded-lg hover:bg-brand-light-gray transition-colors duration-200"
+    >
+      <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-brand-orange flex-shrink-0"></span>
+      <span className="font-primary text-sm leading-snug text-muted-foreground">
+        {req}
+      </span>
+    </li>
+  ))}
+</ul>
 
-
-              
                   
                   
                 </div>
