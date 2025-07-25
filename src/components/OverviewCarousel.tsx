@@ -287,7 +287,7 @@ const OverviewCarousel = () => {
           "Students awaiting their final year results are also eligible to apply.",
           "Must have valid USAT marks (a score of 75 or above is recommended).",
           "Must have all required documents complete.",
-          "A well‑prepared Letter of Motivation is required.",
+          "A well prepared Letter of Motivation is required.",
           "Must submit a medical certificate of satisfactory health."
         ].map((req, idx) => (
           <li
