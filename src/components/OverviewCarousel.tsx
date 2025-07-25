@@ -339,64 +339,65 @@ const OverviewCarousel = () => {
                 </button>
               </div>
               
-              <div className="p-4 overflow-y-auto max-h-96">
-                <div className="space-y-6">
-                  <div>
-  <h4 className="font-secondary font-semibold text-brand-blue mb-2 text-lg">
-    Pros
-  </h4>
-  <ul className="space-y-1.5">
-    {[
-      "Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available.",
-      "The scholarship provides a Schengen visa, enabling travel across Europe.",
-      "Living abroad builds independence, confidence, and lifelong skills.",
-      "You study in a diverse, multicultural environment with global peers.",
-      "The Pakistani student community in Hungary is supportive and close‑knit.",
-      "The Pakistani student community in Hungary is supportive and close‑knit.",
-      "IELTS is often not required, making it easier to apply."
-    ].map((point, idx) => (
-      <li
-        key={idx}
-        className="flex items-start space-x-2 p-2 rounded-lg hover:bg-brand-light-gray transition-colors duration-200"
-      >
-        {/* Orange bullet */}
-        <span className="mt-1.5 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0" />
-        {/* Point text */}
-        <span className="font-primary text-sm leading-snug text-muted-foreground">
-          {point}
-        </span>
-      </li>
-    ))}
-  </ul>
+             <div className="p-4 overflow-y-auto max-h-96">
+  <div className="space-y-6">
+    {/* Pros Section */}
+    <div>
+      <h4 className="font-secondary font-semibold text-brand-blue mb-2 text-lg">
+        Pros
+      </h4>
+      <ul className="space-y-1.5">
+        {[
+          "Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available.",
+          "The scholarship provides a Schengen visa, enabling travel across Europe.",
+          "Living abroad builds independence, confidence, and lifelong skills.",
+          "You study in a diverse, multicultural environment with global peers.",
+          "The Pakistani student community in Hungary is supportive and close‑knit.",
+          "The Pakistani student community in Hungary is supportive and close‑knit.",
+          "IELTS is often not required, making it easier to apply."
+        ].map((point, idx) => (
+          <li
+            key={idx}
+            className="flex items-start space-x-2 p-1 rounded-md hover:bg-brand-light-gray transition-colors duration-200"
+          >
+            <span className="mt-1 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0" />
+            <span className="font-primary text-sm leading-snug text-muted-foreground">
+              {point}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    {/* Why Hungary Section */}
+    <div>
+      <h4 className="font-secondary font-semibold text-brand-blue mb-2 text-lg">
+        Why you should come to Hungary?
+      </h4>
+      <ul className="space-y-1.5">
+        {[
+          "High quality European education.",
+          "Full scholarship coverage.",
+          "Beautiful and safe country.",
+          "Gateway to Europe.",
+          "Rich cultural heritage.",
+          "Excellent job opportunities."
+        ].map((point, idx) => (
+          <li
+            key={idx}
+            className="flex items-start space-x-2 p-1 rounded-md hover:bg-brand-light-gray transition-colors duration-200"
+          >
+            <span className="mt-1 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0" />
+            <span className="font-primary text-sm leading-snug text-muted-foreground">
+              {point}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
 </div>
-<div>
-  <h4 className="font-secondary font-semibold text-brand-blue mb-2 text-lg">
-    Pros
-  </h4>
-  <ul className="space-y-1.5">
-    {[
-      "Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available",
-      "The scholarship provides a Schengen visa, enabling travel across Europe",
-      "Living abroad builds independence, confidence, and lifelong skills",
-      "You study in a diverse, multicultural environment with global peers",
-      "The Pakistani student community in Hungary is supportive and close‑knit",
-      "The Pakistani student community in Hungary is supportive and close‑knit",
-      "IELTS is often not required, making it easier to apply."
-    ].map((point, idx) => (
-      <li
-        key={idx}
-        className="flex items-start space-x-2 p-2 rounded-lg hover:bg-brand-light-gray transition-colors duration-200"
-      >
-        {/* Orange bullet */}
-        <span className="mt-1.5 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0" />
-        {/* Point text */}
-        <span className="font-primary text-sm leading-snug text-muted-foreground">
-          {point}
-        </span>
-      </li>
-    ))}
-  </ul>
-</div>
+
             </motion.div>
           </motion.div>}
       </AnimatePresence>
