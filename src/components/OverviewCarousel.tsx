@@ -349,6 +349,8 @@ const OverviewCarousel = () => {
                       <li>• Living abroad builds independence, confidence, and lifelong skills</li>
                       <li>• You study in a diverse, multicultural environment with global peers</li>
                       <li>• The Pakistani student community in Hungary is supportive and close‑knit</li>
+                      <li>• The Pakistani student community in Hungary is supportive and close‑knit</li>
+                      <li>• IELTS is often not required, making it easier to apply.</li>
                     </ul>
                   </div>
                   
