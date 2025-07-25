@@ -148,36 +148,26 @@ const USAT = () => {
                 The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
               </p>
               
-           {/* Important Advisory */}
-<div className="relative overflow-hidden rounded-xl border border-brand-orange/30 bg-gradient-to-br from-brand-light-gray to-white p-5 mt-4">
-  {/* left stripe */}
-  <div className="absolute top-0 left-0 h-full w-1 bg-brand-orange rounded-r-md" />
+           <div className="relative overflow-hidden rounded-xl border border-brand-orange/30 bg-gradient-to-br from-brand-light-gray to-white p-5 mt-4">
+  <div className="absolute top-0 left-0 h-full w-1 bg-brand-orange rounded-r-md"></div>
   <div className="flex items-start space-x-4 relative">
-    <div className="flex-shrink-0 mt-0.5">
-      <AlertTriangle className="h-6 w-6 text-brand-orange" />
-    </div>
+    <AlertTriangle className="h-6 w-6 text-brand-orange mt-0.5 flex-shrink-0" />
     <div className="space-y-2">
       <h3 className="font-secondary font-semibold text-brand-orange text-base">
         ⚠️ Important Advisory
       </h3>
-      <ul className="space-y-1.5 text-sm text-muted-foreground font-primary leading-relaxed list-none">
+      <ul className="space-y-2 text-sm text-muted-foreground font-primary leading-relaxed">
         <li className="flex items-start space-x-2">
           <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
           <span>Choose the same USAT category you studied in your F.Sc. or equivalent background.</span>
         </li>
         <li className="flex items-start space-x-2">
           <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
-          <span>
-            Though you may pick a different category (except medical), it is{" "}
-            <span className="font-semibold text-brand-orange">not advisable</span>.
-          </span>
+          <span>You may pick a different category (except medical), but it is <span className="font-semibold text-brand-orange">not advisable</span>.</span>
         </li>
         <li className="flex items-start space-x-2">
           <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
-          <span>
-            ❌ Do <span className="font-semibold">not</span> contact HEC repeatedly about this.
-            They may impose stricter rules.
-          </span>
+          <span>❌ Do <span className="font-semibold">not</span> contact HEC repeatedly about this, or they may impose stricter rules.</span>
         </li>
         <li className="flex items-start space-x-2">
           <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
@@ -187,6 +177,7 @@ const USAT = () => {
     </div>
   </div>
 </div>
+
 
             {/* Overview Section */}
             <div className="space-y-4">
