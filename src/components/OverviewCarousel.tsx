@@ -287,7 +287,7 @@ const OverviewCarousel = () => {
           "Students awaiting their final year results are also eligible to apply.",
           "Must have valid USAT marks (a score of 75 or above is recommended).",
           "Must have all required documents complete.",
-          "A well prepared Letter of Motivation is required.",
+          "A well‑prepared Letter of Motivation is required.",
           "Must submit a medical certificate of satisfactory health."
         ].map((req, idx) => (
           <li
@@ -303,7 +303,31 @@ const OverviewCarousel = () => {
       </ul>
     </div>
 
-
+    {/* Others */}
+    <div>
+      <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
+        Documents
+      </h4>
+      <ul className="space-y-1.5">
+        {[
+          "Must have 75 USAT marks.",
+          "Meet the requirements.",
+          "Above the age of 18, no max limit."
+        ].map((other, idx) => (
+          <li
+            key={idx}
+            className="flex items-start space-x-3 p-2 rounded-lg hover:bg-brand-light-gray transition-colors duration-200"
+          >
+            <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-brand-orange flex-shrink-0" />
+            <span className="font-primary text-sm leading-snug text-muted-foreground">
+              {other}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
 
             </motion.div>
           </motion.div>}
