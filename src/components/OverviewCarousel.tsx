@@ -217,7 +217,7 @@ const OverviewCarousel = () => {
    <div
   className={`flex justify-center space-x-2 transition-all duration-300 ${
     current === 1 || current === 2
-      ? 'mt-[18px] mb-0' // move up about 3 inches, no bottom space
+      ? 'mt-[-25px] mb-0' // move up about 3 inches, no bottom space
       : 'mt-6 mb-1'      // default position for others
   }`}
 >
