@@ -306,7 +306,7 @@ const OverviewCarousel = () => {
     {/* Others */}
     <div>
       <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
-        Others
+        Documents
       </h4>
       <ul className="space-y-1.5">
         {[
