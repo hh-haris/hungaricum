@@ -381,6 +381,7 @@ const OverviewCarousel = () => {
           "Student job opportunities are limited. In cities like Budapest it is difficult and in smaller cities the situation is even worse and very limited.",
           "You’re only allowed to be outside Hungary for a maximum of 10 days per semester.",
           "Many students feel isolated at first and often experience homesickness."
+  "Sometimes students struggle with the food."
         ].map((point, idx) => (
           <li
             key={idx}
