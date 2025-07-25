@@ -347,12 +347,12 @@ const OverviewCarousel = () => {
   </h4>
   <ul className="space-y-1.5">
     {[
-      "Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available",
-      "The scholarship provides a Schengen visa, enabling travel across Europe",
-      "Living abroad builds independence, confidence, and lifelong skills",
-      "You study in a diverse, multicultural environment with global peers",
-      "The Pakistani student community in Hungary is supportive and close‑knit",
-      "The Pakistani student community in Hungary is supportive and close‑knit",
+      "Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available.",
+      "The scholarship provides a Schengen visa, enabling travel across Europe.",
+      "Living abroad builds independence, confidence, and lifelong skills.",
+      "You study in a diverse, multicultural environment with global peers.",
+      "The Pakistani student community in Hungary is supportive and close‑knit.",
+      "The Pakistani student community in Hungary is supportive and close‑knit.",
       "IELTS is often not required, making it easier to apply."
     ].map((point, idx) => (
       <li
