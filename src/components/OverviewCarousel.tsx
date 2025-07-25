@@ -272,35 +272,63 @@ const OverviewCarousel = () => {
                 </button>
               </div>
               
-              <div className="p-4 overflow-y-auto max-h-96">
-                <div className="space-y-6">
-                  <div>
-                    <h4 className="font-secondary font-semibold text-brand-blue mb-2">Requirements</h4>
-                    <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Must be a Pakistani or AJ&K citizen without any other nationality.</li>
-                      <li>• Must be 18 years old or above.</li>
-                      <li>• Must have completed F.Sc., F.A., A‑Level, or an equivalent qualification.</li>
-                      <li>• Students awaiting their final year results are also eligible to apply.</li>
-                      <li>• Must have valid USAT marks for safe side a score of 75 or above is recommended.</li>
-                      <li>• Must have all required documents complete.</li>
-                      <li>• A well prepared Letter of Motivation is required.</li>
-                      <li>• Must submit a medical certificate of satisfactory health.</li>
-                      <li>• Must submit a medical certificate of satisfactory health.</li>
-                    </ul>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-secondary font-semibold text-brand-blue mb-2">Others</h4>
-                    <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Must have 75 USAT marks</li>
-                      <li>• Meet the requirements</li>
-                      <li>• Above the age of 18, no max limit.</li>
-                    </ul>
-                  </div>
-                  
-                  
-                </div>
-              </div>
+            <div className="p-4 overflow-y-auto max-h-96">
+  <div className="space-y-6">
+    {/* Requirements */}
+    <div>
+      <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
+        Requirements
+      </h4>
+      <ul className="space-y-1.5">
+        {[
+          "Must be a Pakistani or AJ&K citizen without any other nationality.",
+          "Must be 18 years old or above.",
+          "Must have completed F.Sc., F.A., A‑Level, or an equivalent qualification.",
+          "Students awaiting their final year results are also eligible to apply.",
+          "Must have valid USAT marks (a score of 75 or above is recommended).",
+          "Must have all required documents complete.",
+          "A well‑prepared Letter of Motivation is required.",
+          "Must submit a medical certificate of satisfactory health."
+        ].map((req, idx) => (
+          <li
+            key={idx}
+            className="flex items-start space-x-3 p-2 rounded-lg hover:bg-brand-light-gray transition-colors duration-200"
+          >
+            <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-brand-orange flex-shrink-0" />
+            <span className="font-primary text-sm leading-snug text-muted-foreground">
+              {req}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    {/* Others */}
+    <div>
+      <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
+        Others
+      </h4>
+      <ul className="space-y-1.5">
+        {[
+          "Must have 75 USAT marks.",
+          "Meet the requirements.",
+          "Above the age of 18, no max limit."
+        ].map((other, idx) => (
+          <li
+            key={idx}
+            className="flex items-start space-x-3 p-2 rounded-lg hover:bg-brand-light-gray transition-colors duration-200"
+          >
+            <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-brand-orange flex-shrink-0" />
+            <span className="font-primary text-sm leading-snug text-muted-foreground">
+              {other}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
+
             </motion.div>
           </motion.div>}
       </AnimatePresence>
