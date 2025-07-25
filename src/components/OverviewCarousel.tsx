@@ -332,7 +332,7 @@ const OverviewCarousel = () => {
           duration: 0.5
         }} className="bg-white rounded-2xl w-full max-w-sm max-h-[80vh] overflow-hidden" onClick={e => e.stopPropagation()}>
               <div className="p-4 border-b border-brand-gray flex justify-between items-center">
-                <h3 className="font-secondary font-bold text-lg text-brand-blue">Pros/Cons</h3>
+                <h3 className="font-secondary font-bold text-lg text-brand-blue">Insights</h3>
                 <button onClick={() => setShowProsCons(false)} className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition">
                   <X className="h-5 w-5" />
                 </button>
