@@ -5,7 +5,6 @@ import { ChevronRight, ChevronUp, X, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import { Card, CardContent } from '../components/ui/card';
-import { AlertTriangle } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -149,34 +148,31 @@ const USAT = () => {
                 The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
               </p>
               
-           <div className="mt-6 rounded-xl border border-brand-orange/40 bg-brand-light-gray/50 p-4">
-  <div className="flex items-start gap-3">
-    <AlertTriangle className="h-6 w-6 text-brand-orange flex-shrink-0 mt-1" />
-    <div className="space-y-2">
-      <h3 className="font-secondary font-semibold text-brand-orange text-base">
-        Important Advisory
-      </h3>
-      <ul className="space-y-1.5 text-sm text-muted-foreground font-primary leading-relaxed">
-        <li className="flex items-start gap-2">
-          <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
-          <span>
-            Select the same USAT category you studied in your F.Sc. or equivalent background.
-          </span>
-        </li>
-        <li className="flex items-start gap-2">
-          <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
-          <span>
-            You may choose a different category (except medical), but it is not recommended.
-          </span>
-        </li>
-        <li className="flex items-start gap-2">
-          <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
-          <span>
-            Avoid contacting HEC repeatedly about this to prevent unnecessary restrictions.
-          </span>
-        </li>
-      </ul>
-    </div>
+           <div className="mt-6 rounded-xl border border-brand-orange/40 bg-brand-light-gray/60 p-4">
+  <div className="space-y-3">
+    <h3 className="font-secondary font-semibold text-brand-orange text-base">
+      ⚠️ Important Advisory
+    </h3>
+    <ul className="space-y-2 text-sm font-primary text-muted-foreground leading-relaxed">
+      <li className="flex items-start gap-2">
+        <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
+        <span>
+          Select the same USAT category that you studied during your F.Sc. or equivalent background.
+        </span>
+      </li>
+      <li className="flex items-start gap-2">
+        <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
+        <span>
+          Although you may choose a different category (except Medical), it is strongly discouraged.
+        </span>
+      </li>
+      <li className="flex items-start gap-2">
+        <span className="mt-2 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0"></span>
+        <span>
+          Please avoid messaging or raising tickets with HEC on this matter to prevent unnecessary restrictions.
+        </span>
+      </li>
+    </ul>
   </div>
 </div>
 
