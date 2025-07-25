@@ -214,17 +214,27 @@ const OverviewCarousel = () => {
       </Carousel>
 
       {/* Slide Indicators - Enhanced with animations */}
-      <div className="flex justify-center space-x-2 mt-6 mb-1">
-        {Array.from({
-        length: count
-      }).map((_, index) => <motion.button key={index} onClick={() => api?.scrollTo(index)} className={`w-2 h-2 rounded-full smooth-transition ${index === current - 1 ? 'bg-brand-blue' : 'bg-brand-gray'}`} whileTap={{
-        scale: 0.8
-      }} animate={{
-        scale: index === current - 1 ? 1.2 : 1
-      }} transition={{
-        duration: 0.4
-      }} />)}
-      </div>
+      <div
+  className={`flex justify-center space-x-2 ${
+    current === 3
+      ? 'mt-6 mb-1' // third slide (keep below with margin)
+      : 'absolute top-0 left-0 right-0 mt-0 mb-0' // first two slides (move above, no space)
+  }`}
+>
+  {Array.from({ length: count }).map((_, index) => (
+    <motion.button
+      key={index}
+      onClick={() => api?.scrollTo(index)}
+      className={`w-2 h-2 rounded-full smooth-transition ${
+        index === current - 1 ? 'bg-brand-blue' : 'bg-brand-gray'
+      }`}
+      whileTap={{ scale: 0.8 }}
+      animate={{ scale: index === current - 1 ? 1.2 : 1 }}
+      transition={{ duration: 0.4 }}
+    />
+  ))}
+</div>
+
 
       {/* Details Modal - Using same UI as original */}
       <AnimatePresence>
