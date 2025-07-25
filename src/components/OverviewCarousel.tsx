@@ -298,9 +298,7 @@ const OverviewCarousel = () => {
                     </ul>
                   </div>
                   
-                  <div>
-                    
-                  </div>
+                  
                 </div>
               </div>
             </motion.div>
