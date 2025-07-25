@@ -397,8 +397,6 @@ const OverviewCarousel = () => {
     ))}
   </ul>
 </div>
-
-              </div>
             </motion.div>
           </motion.div>}
       </AnimatePresence>
