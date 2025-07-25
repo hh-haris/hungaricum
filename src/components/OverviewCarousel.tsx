@@ -284,7 +284,8 @@ const OverviewCarousel = () => {
                       <li>• Must have valid USAT marks for safe side a score of 75 or above is recommended.</li>
                       <li>• Must have all required documents complete.</li>
                       <li>• A well prepared Letter of Motivation is required.</li>
-                      <li>• Must have completed F.Sc., F.A., A‑Level, or an equivalent qualification.</li>
+                      <li>• Must submit a medical certificate of satisfactory health.</li>
+                      <li>• Must submit a medical certificate of satisfactory health.</li>
                     </ul>
                   </div>
                   
