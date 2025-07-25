@@ -379,7 +379,7 @@ const OverviewCarousel = () => {
           "To keep the scholarship, you must pass the Hungarian exam and earn at least 60 credits by your second semester.",
           "Language barriers exist, as not everyone speaks English.",
           "Student job opportunities are limited. In cities like Budapest it is difficult and in smaller cities the situation is even worse and very limited.",
-          "Rich cultural heritage.",
+          "You’re only allowed to be outside Hungary for a maximum of 10 days per semester.",
           "Excellent job opportunities."
         ].map((point, idx) => (
           <li
