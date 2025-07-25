@@ -341,18 +341,36 @@ const OverviewCarousel = () => {
               
               <div className="p-4 overflow-y-auto max-h-96">
                 <div className="space-y-6">
-                  <div>
-                    <h4 className="font-secondary font-semibold text-brand-blue mb-2">Pros</h4>
-                    <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available</li>
-                      <li>• The scholarship provides a Schengen visa, enabling travel across Europe</li>
-                      <li>• Living abroad builds independence, confidence, and lifelong skills</li>
-                      <li>• You study in a diverse, multicultural environment with global peers</li>
-                      <li>• The Pakistani student community in Hungary is supportive and close‑knit</li>
-                      <li>• The Pakistani student community in Hungary is supportive and close‑knit</li>
-                      <li>• IELTS is often not required, making it easier to apply.</li>
-                    </ul>
-                  </div>
+                  import { CheckCircle } from "lucide-react";
+
+<div>
+  <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
+    Pros
+  </h4>
+  <ul className="space-y-2">
+    {[
+      "Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available",
+      "The scholarship provides a Schengen visa, enabling travel across Europe",
+      "Living abroad builds independence, confidence, and lifelong skills",
+      "You study in a diverse, multicultural environment with global peers",
+      "The Pakistani student community in Hungary is supportive and close‑knit",
+      "The Pakistani student community in Hungary is supportive and close‑knit",
+      "IELTS is often not required, making it easier to apply."
+    ].map((point, idx) => (
+      <li
+        key={idx}
+        className="flex items-start space-x-3 p-2 rounded-xl hover:bg-brand-light-gray transition-colors duration-200"
+      >
+        {/* Colored Icon */}
+        <CheckCircle className="h-5 w-5 text-brand-blue mt-0.5 flex-shrink-0" />
+        {/* Point Text */}
+        <span className="font-primary text-sm leading-relaxed text-muted-foreground">
+          {point}
+        </span>
+      </li>
+    ))}
+  </ul>
+</div>
                   
                   <div>
                     <h4 className="font-secondary font-semibold text-brand-blue mb-2">Why you should come to Hungary?</h4>
