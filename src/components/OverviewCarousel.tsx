@@ -38,15 +38,15 @@ const OverviewCarousel = () => {
       pkr: 0
     }
   }, {
-    name: 'Accommodation',
-    description: 'University dormitory or housing expenses covered.',
+    name: 'Stipend',
+    description: 'A monthly stipend of 43,700 HUF (around 36,000 PKR or approximately 100 EUR).',
     amount: {
       huf: 0,
       pkr: 0
     }
   }, {
-    name: 'Medical Insurance',
-    description: 'Comprehensive healthcare coverage during studies.',
+    name: 'Accommodation',
+    description: 'Either a free dormitory placement or a housing contribution of 40,000 HUF per month, with most SHS students accommodated in dormitories.',
     amount: {
       huf: 0,
       pkr: 0
