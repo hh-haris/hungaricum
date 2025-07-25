@@ -92,7 +92,6 @@ const OverviewCarousel = () => {
     image: 'hu 3.jpg',
     hasDetails: true
   }, {
-    description: 'The scholarship covers tuition, accommodation, medical insurance, monthly stipend, and travel tickets.',
     image: 'hu 2.jpg',
     hasDetails: false,
     hasCoverage: true
