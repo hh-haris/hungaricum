@@ -66,22 +66,7 @@ const OverviewCarousel = () => {
       pkr: 87000
     }
   }];
-  const faqData = [{
-    question: 'Is the stipend enough to cover all expenses?',
-    answer: 'No, the stipend alone is usually not enough, especially for students living in Budapest. You will need to supplement it with your own budget, and until you find a part‑time job, you should have additional support from home.'
-  }, {
-    question: 'What are the eligibility criteria?',
-    answer: 'You must have completed FSC, meet academic requirements, and be above 18 years old.'
-  }, {
-    question: 'When is the application deadline?',
-    answer: 'Applications typically open in January and close in February each year.'
-  }, {
-    question: 'How long does the selection process take?',
-    answer: 'The entire process from application to final selection takes about 6-8 months.'
-  }, {
-    question: 'Can I work while studying?',
-    answer: 'Yes, students are allowed to work part-time during their studies with proper permits.'
-  }];
+  
   const slides = [{
     description: 'The Stipendium Hungaricum is a prestigious, fully funded opportunity that allows Pakistani students including bachelors, to study in Hungary in the heart of Europe.',
     image: 'hu 1.jpg',
