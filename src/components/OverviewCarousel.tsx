@@ -382,7 +382,7 @@ const OverviewCarousel = () => {
           "You’re only allowed to be outside Hungary for a maximum of 10 days per semester.",
           "Many students feel isolated at first and often experience homesickness.",
   "Sometimes students struggle with the food.",
-  "Many students feel isolated at first and often experience homesickness."
+  "Dormitory conditions vary widely and may not always be ideal."
   
         ].map((point, idx) => (
           <li
