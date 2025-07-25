@@ -376,7 +376,7 @@ const OverviewCarousel = () => {
       <ul className="space-y-1.5">
         {[
           "The monthly stipend often isn’t enough to cover all expenses, so you’ll need extra personal funds.",
-          "Full scholarship coverage.",
+          "To keep the scholarship, you must pass the Hungarian exam and earn at least 60 credits by your second semester.",
           "Beautiful and safe country.",
           "Gateway to Europe.",
           "Rich cultural heritage.",
