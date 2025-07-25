@@ -372,7 +372,7 @@ const OverviewCarousel = () => {
     {/* Why Hungary Section */}
     <div>
       <h4 className="font-secondary font-semibold text-brand-blue mb-2 text-lg">
-        Why you should come to Hungary?
+        Cons
       </h4>
       <ul className="space-y-1.5">
         {[
