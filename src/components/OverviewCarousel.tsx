@@ -217,7 +217,7 @@ const OverviewCarousel = () => {
 <div
   className={`flex justify-center space-x-2 transition-all duration-300 ${
     current === 1 || current === 2
-      ? 'mt-[-200px] mb-[480px]' // push them up by ~5 inches, add bottom space equal to ~5 inches
+      ? 'mt-[-100px] mb-[480px]' // push them up by ~5 inches, add bottom space equal to ~5 inches
       : 'mt-6 mb-1'             // default for 3rd slide
   }`}
 >
