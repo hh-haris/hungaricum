@@ -345,9 +345,9 @@ const OverviewCarousel = () => {
                     <h4 className="font-secondary font-semibold text-brand-blue mb-2">Pros</h4>
                     <ul className="space-y-1 text-sm text-muted-foreground">
                       <li>• Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available</li>
-                      <li>• The scholarship provides a Schengen visa, enabling travel across Europe.</li>
-                      <li>• Living abroad builds independence, confidence, and lifelong skills.</li>
-                      <li>• You study in a diverse, multicultural environment with global peers.</li>
+                      <li>• The scholarship provides a Schengen visa, enabling travel across Europe</li>
+                      <li>• Living abroad builds independence, confidence, and lifelong skills</li>
+                      <li>• You study in a diverse, multicultural environment with global peers</li>
                     </ul>
                   </div>
                   
