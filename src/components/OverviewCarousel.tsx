@@ -341,9 +341,7 @@ const OverviewCarousel = () => {
               
               <div className="p-4 overflow-y-auto max-h-96">
                 <div className="space-y-6">
-                  import { CheckCircle } from "lucide-react";
-
-<div>
+                  <div className="p-4 bg-white rounded-2xl shadow-sm border border-brand-light-gray">
   <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
     Pros
   </h4>
@@ -359,11 +357,11 @@ const OverviewCarousel = () => {
     ].map((point, idx) => (
       <li
         key={idx}
-        className="flex items-start space-x-3 p-2 rounded-xl hover:bg-brand-light-gray transition-colors duration-200"
+        className="flex items-start space-x-3 p-3 rounded-xl hover:bg-brand-light-gray transition-colors duration-200"
       >
-        {/* Colored Icon */}
-        <CheckCircle className="h-5 w-5 text-brand-blue mt-0.5 flex-shrink-0" />
-        {/* Point Text */}
+        {/* Enhanced custom bullet */}
+        <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-brand-blue flex-shrink-0 shadow-sm" />
+        {/* Point text */}
         <span className="font-primary text-sm leading-relaxed text-muted-foreground">
           {point}
         </span>
