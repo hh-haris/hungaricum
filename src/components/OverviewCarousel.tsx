@@ -67,8 +67,8 @@ const OverviewCarousel = () => {
     }
   }];
   const faqData = [{
-    question: 'How much do we need to earn?',
-    answer: 'The scholarship covers all major expenses including tuition, accommodation, and living stipend.'
+    question: 'Is the stipend enough to cover all expenses?',
+    answer: 'No, the stipend alone is usually not enough, especially for students living in Budapest. You will need to supplement it with your own budget, and until you find a part‑time job, you should have additional support from home.'
   }, {
     question: 'What are the eligibility criteria?',
     answer: 'You must have completed FSC, meet academic requirements, and be above 18 years old.'
