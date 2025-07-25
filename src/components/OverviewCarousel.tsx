@@ -60,7 +60,7 @@ const OverviewCarousel = () => {
     }
   }, {
     name: 'Ticket',
-    description: 'HEC covers a one time travel ticket to Hungary.',
+    description: 'You initially pay for your ticket to Hungary yourself, and HEC later reimburses you for this one time travel expense.',
     amount: {
       huf: 100000,
       pkr: 87000
