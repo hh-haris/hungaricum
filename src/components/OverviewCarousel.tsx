@@ -346,7 +346,7 @@ const OverviewCarousel = () => {
                     <ul className="space-y-1 text-sm text-muted-foreground">
                       <li>• Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available.</li>
                       <li>• The scholarship provides a Schengen visa, enabling travel across Europe.</li>
-                      <li>• Distance from family</li>
+                      <li>• A European degree brings strong recognition and future opportunities.</li>
                       <li>• Weather adjustment required</li>
                     </ul>
                   </div>
