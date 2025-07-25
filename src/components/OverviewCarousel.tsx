@@ -296,16 +296,7 @@ const OverviewCarousel = () => {
                       <li>• Meet the requirements</li>
                       <li>• Above the age of 18, no max limit.</li>
                     </ul>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-secondary font-semibold text-brand-blue mb-2">Others</h4>
-                    <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Must have 75 USAT marks</li>
-                      <li>• Meet the requirements</li>
-                      <li>• Above the age of 18, no max limit.</li>
-                    </ul>
-                  </div>
+                  </div
                 </div>
               </div>
             </motion.div>
