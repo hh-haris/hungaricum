@@ -377,7 +377,7 @@ const OverviewCarousel = () => {
         {[
           "The monthly stipend often isn’t enough to cover all expenses, so you’ll need extra personal funds.",
           "To keep the scholarship, you must pass the Hungarian exam and earn at least 60 credits by your second semester.",
-          "Beautiful and safe country.",
+          "Language barriers exist, as not everyone speaks English.",
           "Gateway to Europe.",
           "Rich cultural heritage.",
           "Excellent job opportunities."
