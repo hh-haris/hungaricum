@@ -214,11 +214,11 @@ const OverviewCarousel = () => {
       </Carousel>
 
       {/* Slide Indicators - Enhanced with animations */}
-   <div
+<div
   className={`flex justify-center space-x-2 transition-all duration-300 ${
     current === 1 || current === 2
-      ? 'mt-[-25px] mb-0' // move up about 3 inches, no bottom space
-      : 'mt-6 mb-1'      // default position for others
+      ? 'mt-[-480px] mb-[480px]' // push them up by ~5 inches, add bottom space equal to ~5 inches
+      : 'mt-6 mb-1'             // default for 3rd slide
   }`}
 >
   {Array.from({ length: count }).map((_, index) => (
@@ -234,6 +234,7 @@ const OverviewCarousel = () => {
     />
   ))}
 </div>
+
 
 
 
