@@ -344,7 +344,7 @@ const OverviewCarousel = () => {
                   <div>
                     <h4 className="font-secondary font-semibold text-brand-blue mb-2">Pros</h4>
                     <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Language barrier initially</li>
+                      <li>• Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available.</li>
                       <li>• Different cultural environment</li>
                       <li>• Distance from family</li>
                       <li>• Weather adjustment required</li>
