@@ -31,8 +31,8 @@ const OverviewCarousel = () => {
     });
   }, [api]);
   const coverageData: CoverageItem[] = [{
-    name: 'Full Tuition Fee',
-    description: 'Complete coverage of university tuition costs.',
+    name: 'Tuition Fee',
+    description: 'Complete exemption from all tuition fees for the entire duration of studies.',
     amount: {
       huf: 0,
       pkr: 0
