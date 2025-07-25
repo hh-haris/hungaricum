@@ -272,16 +272,7 @@ const OverviewCarousel = () => {
                 </button>
               </div>
               
-            <div className="p-4 overflow-y-auto max-h-96">
-  <div className="space-y-6">
-    {/* Requirements */}
-    <div>
-      <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
-       {/* Requirements */}
-<div>
-  <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
-    Requirements
-  </h4>
+         <div className="p-4 overflow-y-auto max-h-96">
   <ul className="space-y-1.5">
     {[
       "Must be a Pakistani or AJ&K citizen without any other nationality.",
@@ -297,6 +288,7 @@ const OverviewCarousel = () => {
         key={idx}
         className="flex items-start space-x-3 p-2 rounded-lg hover:bg-brand-light-gray transition-colors duration-200"
       >
+        {/* custom bullet */}
         <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-brand-orange flex-shrink-0" />
         <span className="font-primary text-sm leading-snug text-muted-foreground">
           {req}
@@ -306,6 +298,10 @@ const OverviewCarousel = () => {
   </ul>
 </div>
 
+                  
+                  
+                </div>
+              </div>
             </motion.div>
           </motion.div>}
       </AnimatePresence>
