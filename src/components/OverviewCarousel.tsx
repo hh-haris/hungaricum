@@ -348,6 +348,7 @@ const OverviewCarousel = () => {
                       <li>• The scholarship provides a Schengen visa, enabling travel across Europe</li>
                       <li>• Living abroad builds independence, confidence, and lifelong skills</li>
                       <li>• You study in a diverse, multicultural environment with global peers</li>
+                      <li>• The Pakistani student community in Hungary is supportive and close‑knit</li>
                     </ul>
                   </div>
                   
