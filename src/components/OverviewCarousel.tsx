@@ -277,9 +277,14 @@ const OverviewCarousel = () => {
                   <div>
                     <h4 className="font-secondary font-semibold text-brand-blue mb-2">Requirements</h4>
                     <ul className="space-y-1 text-sm text-muted-foreground">
-                      <li>• Must have completed the FSC</li>
-                      <li>• Meet the requirements</li>
-                      <li>• Above the age of 18, no max limit.</li>
+                      <li>• Must be a Pakistani or AJ&K citizen without any other nationality.</li>
+                      <li>• Must be 18 years old or above.</li>
+                      <li>• Must have completed F.Sc., F.A., A‑Level, or an equivalent qualification.</li>
+                      <li>• Students awaiting their final year results are also eligible to apply.</li>
+                      <li>• Must have valid USAT marks for safe side a score of 75 or above is recommended.</li>
+                      <li>• Must have all required documents complete.</li>
+                      <li>• A well prepared Letter of Motivation is required.</li>
+                      <li>• Must have completed F.Sc., F.A., A‑Level, or an equivalent qualification.</li>
                     </ul>
                   </div>
                   
