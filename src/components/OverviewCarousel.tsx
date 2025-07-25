@@ -341,11 +341,11 @@ const OverviewCarousel = () => {
               
               <div className="p-4 overflow-y-auto max-h-96">
                 <div className="space-y-6">
-                  <div className="p-4 bg-white rounded-2xl shadow-sm border border-brand-light-gray">
-  <h4 className="font-secondary font-semibold text-brand-blue mb-3 text-lg">
+                  <div>
+  <h4 className="font-secondary font-semibold text-brand-blue mb-2 text-lg">
     Pros
   </h4>
-  <ul className="space-y-2">
+  <ul className="space-y-1.5">
     {[
       "Fully funded scholarships for undergraduates are extremely rare, and SHS stands out as one of the finest opportunities available",
       "The scholarship provides a Schengen visa, enabling travel across Europe",
@@ -357,18 +357,19 @@ const OverviewCarousel = () => {
     ].map((point, idx) => (
       <li
         key={idx}
-        className="flex items-start space-x-3 p-3 rounded-xl hover:bg-brand-light-gray transition-colors duration-200"
+        className="flex items-start space-x-2 p-2 rounded-lg hover:bg-brand-light-gray transition-colors duration-200"
       >
-        {/* Enhanced custom bullet */}
-        <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-brand-blue flex-shrink-0 shadow-sm" />
+        {/* Orange bullet */}
+        <span className="mt-1.5 h-2 w-2 rounded-full bg-brand-orange flex-shrink-0" />
         {/* Point text */}
-        <span className="font-primary text-sm leading-relaxed text-muted-foreground">
+        <span className="font-primary text-sm leading-snug text-muted-foreground">
           {point}
         </span>
       </li>
     ))}
   </ul>
 </div>
+
                   
                   <div>
                     <h4 className="font-secondary font-semibold text-brand-blue mb-2">Why you should come to Hungary?</h4>
