@@ -76,7 +76,7 @@ const USAT = () => {
     },
     {
       title: "USAT Commerce",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop",
+      image: "08.jpg",
       link: "/usat/commerce"
     },
     {
