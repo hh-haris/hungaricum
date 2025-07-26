@@ -71,7 +71,7 @@ const USAT = () => {
     },
     {
       title: "USAT Computer Science",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop",
+      image: "03.jpg",
       link: "/usat/computer-science"
     },
     {
