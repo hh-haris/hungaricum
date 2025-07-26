@@ -66,7 +66,7 @@ const USAT = () => {
     },
     {
       title: "USAT Medical",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=300&fit=crop",
+      image: "05.jpg",
       link: "/usat/medical"
     },
     {
