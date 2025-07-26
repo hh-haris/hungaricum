@@ -81,7 +81,7 @@ const USAT = () => {
     },
     {
       title: "USAT Arts",
-      image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=500&h=300&fit=crop",
+      image: "06.jpg",
       link: "/usat/arts"
     },
     {
