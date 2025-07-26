@@ -148,21 +148,7 @@ const USAT = () => {
                 The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
               </p>
               
-              {/* Warning Section */}
-              <div className="bg-brand-light-gray border-l-4 border-brand-orange p-4 rounded-lg">
-                <div className="flex items-start space-x-3">
-                  <AlertTriangle className="h-5 w-5 text-brand-orange flex-shrink-0 mt-0.5" />
-                  <div className="space-y-2">
-                    <h3 className="font-secondary font-semibold text-brand-orange">
-                      Important Advisory
-                    </h3>
-                    <p className="font-primary text-muted-foreground text-sm leading-relaxed">
-                     It is strongly recommended that you select the same USAT category that you studied during your F.Sc. or equivalent background. While you are technically allowed to choose a different category except for Medical background students, it is not advisable. ⚠️ Do not message or generate tickets with HEC about this issue. Previous candidates already made this mistake. HEC responded with the same answer we are giving you here 'you may choose a different category except Medical' but because of the large number of repeated queries again, they could at any time issue an official restriction, forcing everyone to choose only the same category as their previous studies. For your own benefit and to avoid harming others, please follow this recommendation: ❌ Do not contact HEC repeatedly on this matter.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
             {/* Overview Section */}
             <div className="space-y-4">
