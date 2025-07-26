@@ -81,7 +81,7 @@ const USAT = () => {
     },
     {
       title: "USAT Arts",
-      image: "05.jpg",
+      image: "06.jpg",
       link: "/usat/arts"
     },
     {
