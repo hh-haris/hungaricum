@@ -86,7 +86,7 @@ const USAT = () => {
     },
     {
       title: "USAT General Science",
-      image: "06.jpg",
+      image: "07.jpg",
       link: "/usat/general-science"
     }
   ];
