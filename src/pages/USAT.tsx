@@ -161,7 +161,7 @@ const USAT = () => {
                 <CardContent className="p-0">
                   <div className="relative w-full h-32 rounded-lg overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500&h=200&fit=crop" 
+                      src="01.jpg" 
                       alt="USAT Overview" 
                       className="w-full h-full object-cover"
                     />
