@@ -44,7 +44,7 @@ const OverviewCarousel = () => {
     },
     {
       name: 'Accommodation',
-      description: 'Either a free dormitory placement or a housing contribution of 40,000 HUF per month, with most SHS students accommodated in dormitories.',
+      description: 'Students are provided either a free dormitory placement or a housing contribution of 40,000 HUF per month, but in most cases scholarship holders are accommodated in dormitories.',
       amount: { huf: 0, pkr: 0 },
     },
     {
