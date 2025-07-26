@@ -240,7 +240,7 @@ const OverviewCarousel = () => {
                     {[
                       'Must be a Pakistani or AJ&K citizen without any other nationality.',
                       'Must be 18 years old or above.',
-                      'Must have completed F.Sc., F.A., A-Level, or an equivalent qualification.',
+                      'Must have completed F.Sc/F.A, A Level, or an equivalent qualification.',
                       'Students awaiting their final year results are also eligible to apply.',
                       'Must have valid USAT marks (a score of 75 or above is recommended).',
                       'Must have all required documents complete.',
