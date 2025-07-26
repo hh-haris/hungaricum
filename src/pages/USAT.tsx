@@ -61,7 +61,7 @@ const USAT = () => {
   const usatCategories = [
     {
       title: "USAT Engineering",
-      image: "01.jpg",
+      image: "0.jpg",
       link: "/usat/engineering"
     },
     {
