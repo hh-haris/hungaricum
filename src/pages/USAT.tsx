@@ -26,8 +26,8 @@ const USAT = () => {
   const scheduleData = [
     {
       session: "Test 01",
-      registration: "March 10, 2025",
-      rollNoSlip: "October 15, 2024",
+      registration: "April 03, 2025",
+      rollNoSlip: ", 2024",
       testDate: "October 15, 2024",
       keyPublish: "October 15, 2024",
       resultDate: "October 15, 2024"
