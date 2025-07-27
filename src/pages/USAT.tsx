@@ -150,29 +150,30 @@ const USAT = () => {
               </Card>
             </div>
 
-        {/* USAT Schedule */}
+
+{/* USAT Schedule */}
 <div className="space-y-4">
   <h2 className="font-secondary font-semibold text-xl text-brand-blue">
     USAT Schedule
   </h2>
   <p className="font-primary text-muted-foreground text-sm">
-    Below is the tentative schedule for upcoming USAT sessions. Dates are subject to HEC announcements.
+    Below is the tentative schedule for upcoming USAT sessions.
   </p>
 
-  <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
+  <div className="overflow-x-auto">
     <Table>
       <TableHeader>
-        <TableRow className="bg-brand-light-green">
-          <TableHead className="font-secondary font-semibold text-foreground">Session</TableHead>
-          <TableHead className="font-secondary font-semibold text-foreground">Registration Opens</TableHead>
-          <TableHead className="font-secondary font-semibold text-foreground">Roll No. Slip</TableHead>
-          <TableHead className="font-secondary font-semibold text-foreground">Test Date</TableHead>
-          <TableHead className="font-secondary font-semibold text-foreground">Result Date</TableHead>
+        <TableRow>
+          <TableHead className="font-secondary font-semibold">Session</TableHead>
+          <TableHead className="font-secondary font-semibold">Registration Opens</TableHead>
+          <TableHead className="font-secondary font-semibold">Roll No. Slip</TableHead>
+          <TableHead className="font-secondary font-semibold">Test Date</TableHead>
+          <TableHead className="font-secondary font-semibold">Result Date</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
         {scheduleData.map((row, index) => (
-          <TableRow key={index} className="hover:bg-gray-50">
+          <TableRow key={index}>
             <TableCell className="font-medium">{row.session}</TableCell>
             <TableCell>{row.registration}</TableCell>
             <TableCell>{row.rollNoSlip}</TableCell>
@@ -185,6 +186,10 @@ const USAT = () => {
   </div>
 </div>
 
+
+
+
+            
 
             {/* Registration Guide */}
             <div className="space-y-4">
