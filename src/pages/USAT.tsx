@@ -152,7 +152,7 @@ const USAT = () => {
             </div>
 
             {/* Overview Section */}
-            <div className="space-y-4">
+            <div className="space-y-1">
               
               <Card className="cursor-pointer hover:shadow-lg smooth-transition" onClick={() => setShowModal(true)}>
                 <CardContent className="p-0">
