@@ -153,9 +153,6 @@ const USAT = () => {
 
             {/* Overview Section */}
             <div className="space-y-4">
-              <h2 className="font-secondary font-semibold text-xl text-brand-blue">
-                Overview
-              </h2>
               
               <Card className="cursor-pointer hover:shadow-lg smooth-transition" onClick={() => setShowModal(true)}>
                 <CardContent className="p-0">
