@@ -412,6 +412,7 @@ const USAT = () => {
     </h4>
     <p className="text-base font-bold text-brand-orange">100 + 40 Min</p>
   </div>
+</div>
 
             {/* Notes */}
             <div className="space-y-2 mt-6">
