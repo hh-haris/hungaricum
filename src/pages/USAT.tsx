@@ -23,24 +23,26 @@ const USAT = () => {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
   const [showModal, setShowModal] = useState(false);
 
-  const scheduleData = [
+const scheduleData = [          // <-- starts an array
 
+// 🚨 You never close this array with a closing bracket ] or add any items
+// 🚨 Then you immediately start another const declaration, which breaks syntax
 
-const usatCategories = [
-      <p className="font-primary text-muted-foreground text-sm">
-                The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
-              </p>
+const usatCategories = [        // <-- you can’t start another const inside here
+  <p className="font-primary text-muted-foreground text-sm">
+    The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
+  </p>                          // 🚨 missing a comma after this item
 
+  {
+    session: "Test 03",
+    registration: "September 09, 2025",
+    rollNoSlip: "September 19, 2025",
+    testDate: "Sep 28",
+    keyPublish: "December 15, 2024",
+    resultDate: "December 15, 2024"
+  },
+];
 
-    
-    {
-      session: "Test 03",
-      registration: "September 09, 2025",
-      rollNoSlip: "September 19, 2025",
-      testDate: "Sep 28",
-      keyPublish: "December 15, 2024",
-      resultDate: "December 15, 2024"
-    },
     {
       session: "Test 04",
       registration: "January 15, 2025",
