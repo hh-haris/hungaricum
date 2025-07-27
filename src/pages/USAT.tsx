@@ -321,118 +321,119 @@ const USAT = () => {
         </div>
       </main>
 
-           {/* Modal for Overview Details */}
-      <AnimatePresence>
-        {showModal && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center p-4"
+     {/* Modal for Overview Details */}
+<AnimatePresence>
+  {showModal && (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center p-4"
+      onClick={() => setShowModal(false)}
+    >
+      <motion.div
+        initial={{ scale: 0.9, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.9, opacity: 0 }}
+        transition={{ type: "spring", damping: 20 }}
+        className="bg-white rounded-2xl w-full max-w-sm max-h-[80vh] overflow-hidden"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Heading */}
+        <div className="p-4 border-b border-brand-gray flex justify-between items-center">
+          <h3 className="font-secondary font-bold text-lg text-brand-orange">
+            Details
+          </h3>
+          <button
             onClick={() => setShowModal(false)}
+            className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
           >
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              transition={{ type: "spring", damping: 20 }}
-              className="bg-white rounded-2xl w-full max-w-sm max-h-[80vh] overflow-hidden"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <div className="p-4 border-b border-brand-gray flex justify-between items-center">
-                <h3 className="font-secondary font-bold text-lg text-brand-orange">
-                  Details
-                </h3>
-                <button
-                  onClick={() => setShowModal(false)}
-                  className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
-                >
-                  <X className="h-5 w-5" />
-                </button>
-              </div>
+            <X className="h-5 w-5" />
+          </button>
+        </div>
 
-              <div className="p-4 overflow-y-auto max-h-96">
-                <div className="space-y-4">
-                  <p className="font-primary text-muted-foreground text-sm">
-                    The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
-                  </p>
+        {/* Modal Content */}
+        <div className="p-4 overflow-y-auto max-h-96">
+          <div className="space-y-5">
+            <p className="font-primary text-muted-foreground text-sm leading-relaxed">
+              The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
+            </p>
 
-                  {/* Marks Table */}
-                  <div className="space-y-2">
-                    <h4 className="font-secondary font-semibold text-brand-blue">
-                      Test Structure
-                    </h4>
-                    <div className="overflow-x-auto">
-                      <Table className="w-full text-sm">
-                        <TableHeader>
-                          <TableRow className="bg-brand-light-green">
-                            <TableHead className="font-secondary font-semibold text-foreground text-left py-2">
-                              Component
-                            </TableHead>
-                            <TableHead className="font-secondary font-semibold text-foreground text-left py-2">
-                              Marks
-                            </TableHead>
-                          </TableRow>
-                        </TableHeader>
-                        <TableBody>
-                          <TableRow>
-                            <TableCell className="font-medium">Total Marks</TableCell>
-                            <TableCell>100</TableCell>
-                          </TableRow>
-                          <TableRow>
-                            <TableCell className="font-medium">MCQs</TableCell>
-                            <TableCell>75</TableCell>
-                          </TableRow>
-                          <TableRow>
-                            <TableCell className="font-medium">Argumentative Essay</TableCell>
-                            <TableCell>15</TableCell>
-                          </TableRow>
-                          <TableRow>
-                            <TableCell className="font-medium">Narrative Essay</TableCell>
-                            <TableCell>10</TableCell>
-                          </TableRow>
-                        </TableBody>
-                      </Table>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-4 mt-6">
-                    <div>
-                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">
-                        Safe Marks
-                      </h4>
-                      <p className="text-muted-foreground">75+</p>
-                    </div>
-                    <div>
-                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">
-                        Duration
-                      </h4>
-                      <p className="text-muted-foreground">100 + 40 Min</p>
-                    </div>
-                  </div>
-
-                  <div className="space-y-2 mt-6">
-                    <div className="flex items-start space-x-2">
-                      <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
-                      <p className="text-sm text-muted-foreground">
-                        Detailed structure of each USAT type is given with each individual guide of each USAT.
-                      </p>
-                    </div>
-                    <div className="flex items-start space-x-2">
-                      <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
-                      <p className="text-sm text-muted-foreground">
-                        Go to the related USAT you have decided to take for a detailed guide with all resources you need.
-                      </p>
-                    </div>
-                  </div>
+            {/* Test Structure */}
+            <div className="space-y-2">
+              <h4 className="font-secondary font-semibold text-brand-blue">
+                Test Structure
+              </h4>
+              <div className="-mx-4">
+                <div className="overflow-x-auto">
+                  <Table className="w-full text-sm">
+                    <TableHeader>
+                      <TableRow className="bg-brand-light-green">
+                        <TableHead className="font-secondary font-semibold text-foreground text-left py-2">
+                          Component
+                        </TableHead>
+                        <TableHead className="font-secondary font-semibold text-foreground text-left py-2">
+                          Marks
+                        </TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      <TableRow>
+                        <TableCell className="font-medium">Total Marks</TableCell>
+                        <TableCell>100</TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell className="font-medium">MCQs</TableCell>
+                        <TableCell>75</TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell className="font-medium">Argumentative Essay</TableCell>
+                        <TableCell>15</TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell className="font-medium">Narrative Essay</TableCell>
+                        <TableCell>10</TableCell>
+                      </TableRow>
+                    </TableBody>
+                  </Table>
                 </div>
               </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </div>
-  );
-};
+            </div>
 
-export default USAT;
+            {/* Safe Marks & Duration */}
+            <div className="grid grid-cols-2 gap-4 mt-4">
+              <div>
+                <h4 className="font-secondary font-semibold text-brand-blue mb-0.5">
+                  Safe Marks
+                </h4>
+                <p className="text-muted-foreground text-sm">75+</p>
+              </div>
+              <div>
+                <h4 className="font-secondary font-semibold text-brand-blue mb-0.5">
+                  Duration
+                </h4>
+                <p className="text-muted-foreground text-sm">100 + 40 Min</p>
+              </div>
+            </div>
+
+            {/* Notes */}
+            <div className="space-y-2 mt-4">
+              <div className="flex items-start space-x-2">
+                <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-sm text-muted-foreground leading-snug">
+                  Detailed structure of each USAT type is given with each individual guide of each USAT.
+                </p>
+              </div>
+              <div className="flex items-start space-x-2">
+                <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-sm text-muted-foreground leading-snug">
+                  Go to the related USAT you have decided to take for a detailed guide with all resources you need.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    </motion.div>
+  )}
+</AnimatePresence>
