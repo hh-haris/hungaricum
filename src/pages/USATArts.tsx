@@ -79,10 +79,7 @@ const USATArts = () => {
         }} transition={{
           duration: 0.6
         }} className="space-y-8">
-            {/* Banner */}
-            <div className="relative w-full h-48 rounded-2xl overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=400&fit=crop" alt="Arts & Humanities USAT" className="w-full h-full object-cover" />
-            </div>
+           
 
             {/* Header */}
             <div className="space-y-4">
