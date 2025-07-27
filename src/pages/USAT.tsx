@@ -160,25 +160,49 @@ const USAT = () => {
     Below is the tentative schedule for upcoming USAT sessions.
   </p>
 
-  <div className="overflow-x-auto">
-    <Table>
+  <div className="overflow-x-auto rounded-lg">
+    <Table className="min-w-full text-sm">
       <TableHeader>
-        <TableRow>
-          <TableHead className="font-secondary font-semibold">Session</TableHead>
-          <TableHead className="font-secondary font-semibold">Registration Opens</TableHead>
-          <TableHead className="font-secondary font-semibold">Roll No. Slip</TableHead>
-          <TableHead className="font-secondary font-semibold">Test Date</TableHead>
-          <TableHead className="font-secondary font-semibold">Result Date</TableHead>
+        <TableRow className="bg-brand-light-green">
+          <TableHead className="font-secondary font-semibold text-foreground px-3 py-2 whitespace-nowrap">
+            Session
+          </TableHead>
+          <TableHead className="font-secondary font-semibold text-foreground px-3 py-2 whitespace-nowrap">
+            Registration
+          </TableHead>
+          <TableHead className="font-secondary font-semibold text-foreground px-3 py-2 whitespace-nowrap">
+            Roll No. Slip
+          </TableHead>
+          <TableHead className="font-secondary font-semibold text-foreground px-3 py-2 whitespace-nowrap">
+            Test Date
+          </TableHead>
+          <TableHead className="font-secondary font-semibold text-foreground px-3 py-2 whitespace-nowrap">
+            Result Date
+          </TableHead>
         </TableRow>
       </TableHeader>
+
       <TableBody>
         {scheduleData.map((row, index) => (
-          <TableRow key={index}>
-            <TableCell className="font-medium">{row.session}</TableCell>
-            <TableCell>{row.registration}</TableCell>
-            <TableCell>{row.rollNoSlip}</TableCell>
-            <TableCell>{row.testDate}</TableCell>
-            <TableCell>{row.resultDate}</TableCell>
+          <TableRow
+            key={index}
+            className="hover:bg-brand-light-gray/50 transition-colors duration-200"
+          >
+            <TableCell className="px-3 py-3 font-medium text-foreground whitespace-nowrap">
+              {row.session}
+            </TableCell>
+            <TableCell className="px-3 py-3 text-muted-foreground whitespace-nowrap">
+              {row.registration}
+            </TableCell>
+            <TableCell className="px-3 py-3 text-muted-foreground whitespace-nowrap">
+              {row.rollNoSlip}
+            </TableCell>
+            <TableCell className="px-3 py-3 text-muted-foreground whitespace-nowrap">
+              {row.testDate}
+            </TableCell>
+            <TableCell className="px-3 py-3 text-muted-foreground whitespace-nowrap">
+              {row.resultDate}
+            </TableCell>
           </TableRow>
         ))}
       </TableBody>
