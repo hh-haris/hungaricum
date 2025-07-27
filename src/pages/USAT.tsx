@@ -5,7 +5,6 @@ import { ChevronRight, ChevronUp, X, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import { Card, CardContent } from '../components/ui/card';
-import { CheckCircle, Clock } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -401,25 +400,18 @@ const USAT = () => {
 
           {/* Safe Marks & Duration */}
 <div className="grid grid-cols-2 gap-4 mt-6">
-  <div className="flex items-center space-x-2">
-    <CheckCircle className="h-5 w-5 text-brand-blue flex-shrink-0" />
-    <div>
-      <h4 className="font-secondary font-semibold text-brand-blue text-sm leading-tight">
-        Safe Marks
-      </h4>
-      <p className="text-base font-bold text-brand-orange">75+</p>
-    </div>
+  <div>
+    <h4 className="font-secondary font-semibold text-brand-blue text-sm leading-tight">
+      Safe Marks
+    </h4>
+    <p className="text-base font-bold text-brand-orange">75+</p>
   </div>
-  <div className="flex items-center space-x-2">
-    <Clock className="h-5 w-5 text-brand-blue flex-shrink-0" />
-    <div>
-      <h4 className="font-secondary font-semibold text-brand-blue text-sm leading-tight">
-        Duration
-      </h4>
-      <p className="text-base font-bold text-brand-orange">100 + 40 Min</p>
-    </div>
+  <div>
+    <h4 className="font-secondary font-semibold text-brand-blue text-sm leading-tight">
+      Duration
+    </h4>
+    <p className="text-base font-bold text-brand-orange">100 + 40 Min</p>
   </div>
-</div>
 
             {/* Notes */}
             <div className="space-y-2 mt-6">
