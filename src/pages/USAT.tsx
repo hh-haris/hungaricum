@@ -472,11 +472,9 @@ const USAT = () => {
   )}
 </AnimatePresence>
 
-const USAT = () => {
-  return (
-    <>
-      {/* your JSX */}
-    </>
+
+        
+  </div>
   );
 };
 
