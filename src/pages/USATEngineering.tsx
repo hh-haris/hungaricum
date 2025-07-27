@@ -66,8 +66,7 @@ const USATEngineering = () => {
             transition={{ duration: 0.6 }}
             className="space-y-8"
           >
-           
-              />
+    
             </div>
 
             {/* Header */}
