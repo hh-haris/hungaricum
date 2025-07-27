@@ -157,7 +157,7 @@ const USAT = () => {
     USAT Schedule
   </h2>
   <p className="font-primary text-muted-foreground text-sm">
-    Below is the tentative schedule for upcoming USAT sessions.
+    Here is the schedule for the remaining two USAT tests of this year. These dates are based on the official HEC schedule but they may change at any time. Please make sure to double check the relevant websites and official sources for the latest updates. We share this information with good intentions but we cannot take responsibility for any changes or inaccuracies in this schedule.
   </p>
 
   <div className="overflow-x-auto rounded-lg">
