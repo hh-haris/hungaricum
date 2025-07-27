@@ -167,7 +167,6 @@ const USAT = () => {
                       <TableHead className="font-secondary font-semibold text-foreground">Registration</TableHead>
                       <TableHead className="font-secondary font-semibold text-foreground">Roll No Slip</TableHead>
                       <TableHead className="font-secondary font-semibold text-foreground">Test Date</TableHead>
-                      <TableHead className="font-secondary font-semibold text-foreground">Key Publish</TableHead>
                       <TableHead className="font-secondary font-semibold text-foreground">Result Date</TableHead>
                     </TableRow>
                   </TableHeader>
