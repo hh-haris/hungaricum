@@ -321,69 +321,7 @@ const USAT = () => {
         </div>
       </main>
 
-     {/* Modal for Overview Details */}
-<AnimatePresence>
-  {showModal && (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center p-4"
-      onClick={() => setShowModal(false)}
-    >
-      <motion.div
-        initial={{ scale: 0.9, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        exit={{ scale: 0.9, opacity: 0 }}
-        transition={{ type: "spring", damping: 20 }}
-        className="bg-white rounded-2xl w-full max-w-sm max-h-[80vh] overflow-hidden"
-        onClick={(e) => e.stopPropagation()}
-      >
-        {/* Heading */}
-        <div className="p-4 border-b border-brand-gray flex justify-between items-center">
-          <h3 className="font-secondary font-bold text-lg text-brand-orange">
-            Details
-          </h3>
-          <button
-            onClick={() => setShowModal(false)}
-            className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
-          >
-            <X className="h-5 w-5" />
-          </button>
-        </div>
-
-{/* Modal for Overview Details */}
-<AnimatePresence>
-  {showModal && (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center p-4"
-      onClick={() => setShowModal(false)}
-    >
-      <motion.div
-        initial={{ scale: 0.9, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        exit={{ scale: 0.9, opacity: 0 }}
-        transition={{ type: "spring", damping: 20 }}
-        className="bg-white rounded-2xl w-full max-w-sm max-h-[80vh] overflow-hidden"
-        onClick={(e) => e.stopPropagation()}
-      >
-        {/* Heading */}
-        <div className="p-4 border-b border-brand-gray flex justify-between items-center">
-          <h3 className="font-secondary font-bold text-lg text-brand-orange">
-            Details
-          </h3>
-          <button
-            onClick={() => setShowModal(false)}
-            className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
-          >
-            <X className="h-5 w-5" />
-          </button>
-        </div>
-
-       {/* Modal for Overview Details */}
+    {/* Modal for Overview Details */}
 <AnimatePresence>
   {showModal && (
     <motion.div
@@ -498,7 +436,8 @@ const USAT = () => {
   )}
 </AnimatePresence>
 
-  
+
+    </div>
   );
 };
 
