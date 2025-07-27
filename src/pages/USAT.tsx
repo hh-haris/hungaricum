@@ -437,3 +437,8 @@ const USAT = () => {
     </motion.div>
   )}
 </AnimatePresence>
+  </div>
+  );
+};
+
+export default USAT;
