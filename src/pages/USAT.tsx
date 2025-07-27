@@ -381,7 +381,7 @@ const USAT = () => {
                       <TableCell className="font-medium px-3 py-2">Total Marks</TableCell>
                       <TableCell className="px-3 py-2">100</TableCell>
                     </TableRow>
-                    <TableRow className="bg-gray-50">
+                    <TableRow>
                       <TableCell className="font-medium px-3 py-2">MCQs</TableCell>
                       <TableCell className="px-3 py-2">75</TableCell>
                     </TableRow>
@@ -389,7 +389,7 @@ const USAT = () => {
                       <TableCell className="font-medium px-3 py-2">Argumentative Essay</TableCell>
                       <TableCell className="px-3 py-2">15</TableCell>
                     </TableRow>
-                    <TableRow className="bg-gray-50">
+                    <TableRow>
                       <TableCell className="font-medium px-3 py-2">Narrative Essay</TableCell>
                       <TableCell className="px-3 py-2">10</TableCell>
                     </TableRow>
@@ -400,17 +400,17 @@ const USAT = () => {
 
             {/* Safe Marks & Duration */}
             <div className="grid grid-cols-2 gap-4 mt-6">
-              <div>
-                <h4 className="font-secondary font-semibold text-brand-blue mb-1">
-                  Safe Marks
+              <div className="bg-brand-light-green/30 rounded-xl p-3 shadow-sm text-center">
+                <h4 className="font-secondary font-semibold text-brand-blue mb-1 text-base">
+                  ✅ Safe Marks
                 </h4>
-                <p className="text-muted-foreground">75+</p>
+                <p className="text-xl font-bold text-brand-orange">75+</p>
               </div>
-              <div>
-                <h4 className="font-secondary font-semibold text-brand-blue mb-1">
-                  Duration
+              <div className="bg-brand-light-green/30 rounded-xl p-3 shadow-sm text-center">
+                <h4 className="font-secondary font-semibold text-brand-blue mb-1 text-base">
+                  ⏳ Duration
                 </h4>
-                <p className="text-muted-foreground">100 + 40 Min</p>
+                <p className="text-xl font-bold text-brand-orange">100 + 40 Min</p>
               </div>
             </div>
 
