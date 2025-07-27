@@ -150,41 +150,41 @@ const USAT = () => {
               </Card>
             </div>
 
-            {/* USAT Schedule */}
-            <div className="space-y-4">
-              <h2 className="font-secondary font-semibold text-xl text-brand-blue">
-                USAT Schedule
-              </h2>
-               <p className="font-primary text-muted-foreground text-sm">
-                The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
-              </p>
-              
-              <div className="overflow-x-auto">
-                <Table>
-                  <TableHeader>
-                    <TableRow className="bg-brand-light-green">
-                      <TableHead className="font-secondary font-semibold text-foreground">Session</TableHead>
-                      <TableHead className="font-secondary font-semibold text-foreground">Registration</TableHead>
-                      <TableHead className="font-secondary font-semibold text-foreground">Roll No Slip</TableHead>
-                      <TableHead className="font-secondary font-semibold text-foreground">Test Date</TableHead>
-                      <TableHead className="font-secondary font-semibold text-foreground">Result Date</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {scheduleData.map((row, index) => (
-                      <TableRow key={index}>
-                        <TableCell className="font-medium">{row.session}</TableCell>
-                        <TableCell>{row.registration}</TableCell>
-                        <TableCell>{row.rollNoSlip}</TableCell>
-                        <TableCell>{row.testDate}</TableCell>
-                        <TableCell>{row.keyPublish}</TableCell>
-                        <TableCell>{row.resultDate}</TableCell>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-              </div>
-            </div>
+        {/* USAT Schedule */}
+<div className="space-y-4">
+  <h2 className="font-secondary font-semibold text-xl text-brand-blue">
+    USAT Schedule
+  </h2>
+  <p className="font-primary text-muted-foreground text-sm">
+    Below is the tentative schedule for upcoming USAT sessions. Dates are subject to HEC announcements.
+  </p>
+
+  <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
+    <Table>
+      <TableHeader>
+        <TableRow className="bg-brand-light-green">
+          <TableHead className="font-secondary font-semibold text-foreground">Session</TableHead>
+          <TableHead className="font-secondary font-semibold text-foreground">Registration Opens</TableHead>
+          <TableHead className="font-secondary font-semibold text-foreground">Roll No. Slip</TableHead>
+          <TableHead className="font-secondary font-semibold text-foreground">Test Date</TableHead>
+          <TableHead className="font-secondary font-semibold text-foreground">Result Date</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        {scheduleData.map((row, index) => (
+          <TableRow key={index} className="hover:bg-gray-50">
+            <TableCell className="font-medium">{row.session}</TableCell>
+            <TableCell>{row.registration}</TableCell>
+            <TableCell>{row.rollNoSlip}</TableCell>
+            <TableCell>{row.testDate}</TableCell>
+            <TableCell>{row.resultDate}</TableCell>
+          </TableRow>
+        ))}
+      </TableBody>
+    </Table>
+  </div>
+</div>
+
 
             {/* Registration Guide */}
             <div className="space-y-4">
