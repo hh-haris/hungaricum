@@ -44,6 +44,17 @@ const usatCategories = [        // <-- you can’t start another const inside he
 ];
 
 
+  
+    {
+      session: "Test 04",
+      registration: "January 15, 2025",
+      rollNoSlip: "January 15, 2025",
+      testDate: "January 15, 2025",
+      keyPublish: "January 15, 2025",
+      resultDate: "January 15, 2025"
+    }
+  ];
+
   const usatCategories = [
   
     {
