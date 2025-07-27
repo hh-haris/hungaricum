@@ -254,7 +254,7 @@ const USATEngineering = () => {
                 >
                   <CardContent className="p-0">
                     <div className="relative w-full h-32 rounded-lg overflow-hidden">
-                      <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=200&fit=crop" alt="Past Papers" className="w-full h-full object-cover" />
+                      <img src="Past Papers.jpg" alt="Past Papers" className="w-full h-full object-cover" />
                     </div>
                   </CardContent>
                 </Card>
