@@ -342,7 +342,8 @@ const USAT = () => {
 
 
 
-                            <div className="p-4 border-b border-brand-gray flex justify-between items-center">
+
+              <div className="p-4 border-b border-brand-gray flex justify-between items-center">
                 <h3 className="font-secondary font-bold text-lg text-brand-orange">
                   Details
                 </h3>
@@ -356,72 +357,62 @@ const USAT = () => {
 
               <div className="p-4 overflow-y-auto max-h-96">
                 <div className="space-y-4">
-                  <p className="font-primary text-muted-foreground text-sm">
+                  <p className="font-primary text-muted-foreground text-sm leading-relaxed">
                     The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
                   </p>
 
-                  {/* Marks Table */}
+                  {/* Marks List */}
                   <div className="space-y-2">
-                    <h4 className="font-secondary font-semibold text-brand-blue">Test Structure</h4>
-                    <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
-                      <Table>
-                        <TableHeader>
-                          <TableRow className="bg-brand-light-green">
-                            <TableHead className="font-secondary font-semibold text-foreground text-center">
-                              Component
-                            </TableHead>
-                            <TableHead className="font-secondary font-semibold text-foreground text-center">
-                              Marks
-                            </TableHead>
-                          </TableRow>
-                        </TableHeader>
-                        <TableBody>
-                          <TableRow className="hover:bg-brand-light-gray/50">
-                            <TableCell className="font-medium text-center">Total Marks</TableCell>
-                            <TableCell className="text-center">100</TableCell>
-                          </TableRow>
-                          <TableRow className="hover:bg-brand-light-gray/50">
-                            <TableCell className="font-medium text-center">MCQs</TableCell>
-                            <TableCell className="text-center">75</TableCell>
-                          </TableRow>
-                          <TableRow className="hover:bg-brand-light-gray/50">
-                            <TableCell className="font-medium text-center">Argumentative Essay</TableCell>
-                            <TableCell className="text-center">15</TableCell>
-                          </TableRow>
-                          <TableRow className="hover:bg-brand-light-gray/50">
-                            <TableCell className="font-medium text-center">Narrative Essay</TableCell>
-                            <TableCell className="text-center">10</TableCell>
-                          </TableRow>
-                        </TableBody>
-                      </Table>
-                    </div>
+                    <h4 className="font-secondary font-semibold text-brand-blue mb-2">
+                      Test Structure
+                    </h4>
+                    <ul className="divide-y divide-gray-100">
+                      <li className="flex justify-between py-2 text-sm">
+                        <span className="font-medium text-foreground">Total Marks</span>
+                        <span className="text-muted-foreground">100</span>
+                      </li>
+                      <li className="flex justify-between py-2 text-sm">
+                        <span className="font-medium text-foreground">MCQs</span>
+                        <span className="text-muted-foreground">75</span>
+                      </li>
+                      <li className="flex justify-between py-2 text-sm">
+                        <span className="font-medium text-foreground">Argumentative Essay</span>
+                        <span className="text-muted-foreground">15</span>
+                      </li>
+                      <li className="flex justify-between py-2 text-sm">
+                        <span className="font-medium text-foreground">Narrative Essay</span>
+                        <span className="text-muted-foreground">10</span>
+                      </li>
+                    </ul>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-4 mt-6">
-                    <div>
-                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">
+                  {/* Safe Marks and Duration */}
+                  <div className="grid grid-cols-2 gap-3 mt-6 sm:gap-6">
+                    <div className="p-3 rounded-lg bg-brand-light-gray text-center">
+                      <h4 className="font-secondary font-semibold text-brand-blue text-sm mb-1">
                         Safe Marks
                       </h4>
-                      <p className="text-muted-foreground">75+</p>
+                      <p className="text-lg font-bold text-brand-orange">75+</p>
                     </div>
-                    <div>
-                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">
+                    <div className="p-3 rounded-lg bg-brand-light-gray text-center">
+                      <h4 className="font-secondary font-semibold text-brand-blue text-sm mb-1">
                         Duration
                       </h4>
-                      <p className="text-muted-foreground">100 + 40 Min</p>
+                      <p className="text-lg font-bold text-brand-orange">100 + 40 Min</p>
                     </div>
                   </div>
 
+                  {/* Notes */}
                   <div className="space-y-2 mt-6">
                     <div className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-sm text-muted-foreground leading-snug">
                         Detailed structure of each USAT type is given with each individual guide of each USAT.
                       </p>
                     </div>
                     <div className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-sm text-muted-foreground leading-snug">
                         Go to the related USAT you have decided to take for a detailed guide, with all resources you need.
                       </p>
                     </div>
@@ -436,5 +427,6 @@ const USAT = () => {
   );
 };
 
+              
 
 export default USAT;
