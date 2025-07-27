@@ -286,7 +286,7 @@ const USATCommerce = () => {
                 <Card className="cursor-pointer hover:shadow-lg smooth-transition" onClick={() => setShowStudyResources(true)}>
                   <CardContent className="p-0">
                     <div className="relative w-full h-32 rounded-lg overflow-hidden">
-                      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=200&fit=crop" alt="Study Resources" className="w-full h-full object-cover" />
+                      <img src="Other" alt="Study Resources" className="w-full h-full object-cover" />
                     </div>
                   </CardContent>
                 </Card>
