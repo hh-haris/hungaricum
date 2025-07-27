@@ -44,9 +44,7 @@ const USAT = () => {
   ];
 
   const usatCategories = [
-      <p className="font-primary text-muted-foreground text-sm">
-                The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
-              </p>
+  
     {
       title: "USAT Engineering",
       image: "04.jpg",
