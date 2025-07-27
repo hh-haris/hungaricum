@@ -377,7 +377,7 @@ const USAT = () => {
           </h3>
           <button
             onClick={() => setShowModal(false)}
-            className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
+            className="p-1 hover:bg-brand-light-gray rounded-full transition-colors"
           >
             <X className="h-5 w-5" />
           </button>
@@ -396,7 +396,7 @@ const USAT = () => {
                 Test Structure
               </h4>
               <div className="overflow-x-auto rounded-lg shadow-sm border border-gray-200">
-                <table className="min-w-full border-collapse">
+                <table className="w-full border-collapse text-sm">
                   <thead>
                     <tr className="bg-brand-light-green">
                       <th className="text-left px-3 py-2 font-secondary font-semibold text-foreground rounded-tl-lg">
@@ -431,7 +431,7 @@ const USAT = () => {
 
             {/* Safe Marks & Duration */}
             <div className="grid grid-cols-2 gap-6 mt-4">
-              <div className="space-y-1">
+              <div>
                 <h4 className="font-secondary font-semibold text-brand-blue text-sm">
                   Safe Marks
                 </h4>
@@ -439,7 +439,7 @@ const USAT = () => {
                   75+
                 </p>
               </div>
-              <div className="space-y-1">
+              <div>
                 <h4 className="font-secondary font-semibold text-brand-blue text-sm">
                   Duration
                 </h4>
@@ -471,8 +471,11 @@ const USAT = () => {
   )}
 </AnimatePresence>
 
-</div>
-);
+
+
+        
+  </div>
+  );
 };
 
 export default USAT;
