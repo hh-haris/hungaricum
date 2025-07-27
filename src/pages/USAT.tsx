@@ -342,120 +342,99 @@ const USAT = () => {
 
 
 
-{/* Modal Header */}
-<div className="p-4 border-b border-brand-gray flex justify-between items-center">
-  <h3 className="font-secondary font-bold text-lg text-brand-orange">
-    Details
-  </h3>
-  <button
-    onClick={() => setShowModal(false)}
-    className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
-  >
-    <X className="h-5 w-5" />
-  </button>
-</div>
+                            <div className="p-4 border-b border-brand-gray flex justify-between items-center">
+                <h3 className="font-secondary font-bold text-lg text-brand-orange">
+                  Details
+                </h3>
+                <button
+                  onClick={() => setShowModal(false)}
+                  className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
 
-{/* Modal Body */}
-<div className="p-4 overflow-y-auto max-h-[80vh] space-y-6">
-  {/* Intro Text */}
-  <p className="font-primary text-muted-foreground text-sm leading-relaxed">
-    The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
-  </p>
+              <div className="p-4 overflow-y-auto max-h-96">
+                <div className="space-y-4">
+                  <p className="font-primary text-muted-foreground text-sm">
+                    The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
+                  </p>
 
-  {/* Marks Table */}
-  <div className="space-y-3">
-    <h4 className="font-secondary font-semibold text-base text-brand-blue">
-      Test Structure
-    </h4>
+                  {/* Marks Table */}
+                  <div className="space-y-2">
+                    <h4 className="font-secondary font-semibold text-brand-blue">Test Structure</h4>
+                    <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="bg-brand-light-green">
+                            <TableHead className="font-secondary font-semibold text-foreground text-center">
+                              Component
+                            </TableHead>
+                            <TableHead className="font-secondary font-semibold text-foreground text-center">
+                              Marks
+                            </TableHead>
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          <TableRow className="hover:bg-brand-light-gray/50">
+                            <TableCell className="font-medium text-center">Total Marks</TableCell>
+                            <TableCell className="text-center">100</TableCell>
+                          </TableRow>
+                          <TableRow className="hover:bg-brand-light-gray/50">
+                            <TableCell className="font-medium text-center">MCQs</TableCell>
+                            <TableCell className="text-center">75</TableCell>
+                          </TableRow>
+                          <TableRow className="hover:bg-brand-light-gray/50">
+                            <TableCell className="font-medium text-center">Argumentative Essay</TableCell>
+                            <TableCell className="text-center">15</TableCell>
+                          </TableRow>
+                          <TableRow className="hover:bg-brand-light-gray/50">
+                            <TableCell className="font-medium text-center">Narrative Essay</TableCell>
+                            <TableCell className="text-center">10</TableCell>
+                          </TableRow>
+                        </TableBody>
+                      </Table>
+                    </div>
+                  </div>
 
-    <div className="overflow-x-auto rounded-lg">
-      <Table className="min-w-full text-sm">
-        <TableHeader>
-          <TableRow className="bg-brand-light-green">
-            <TableHead className="font-secondary font-semibold text-foreground px-3 py-2 whitespace-nowrap">
-              Component
-            </TableHead>
-            <TableHead className="font-secondary font-semibold text-foreground px-3 py-2 whitespace-nowrap">
-              Marks
-            </TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          <TableRow className="hover:bg-brand-light-gray/50 transition-colors duration-200">
-            <TableCell className="px-3 py-3 font-medium text-foreground whitespace-nowrap">
-              Total Marks
-            </TableCell>
-            <TableCell className="px-3 py-3 text-muted-foreground whitespace-nowrap">
-              100
-            </TableCell>
-          </TableRow>
-          <TableRow className="hover:bg-brand-light-gray/50 transition-colors duration-200">
-            <TableCell className="px-3 py-3 font-medium text-foreground whitespace-nowrap">
-              MCQs
-            </TableCell>
-            <TableCell className="px-3 py-3 text-muted-foreground whitespace-nowrap">
-              75
-            </TableCell>
-          </TableRow>
-          <TableRow className="hover:bg-brand-light-gray/50 transition-colors duration-200">
-            <TableCell className="px-3 py-3 font-medium text-foreground whitespace-nowrap">
-              Argumentative Essay
-            </TableCell>
-            <TableCell className="px-3 py-3 text-muted-foreground whitespace-nowrap">
-              15
-            </TableCell>
-          </TableRow>
-          <TableRow className="hover:bg-brand-light-gray/50 transition-colors duration-200">
-            <TableCell className="px-3 py-3 font-medium text-foreground whitespace-nowrap">
-              Narrative Essay
-            </TableCell>
-            <TableCell className="px-3 py-3 text-muted-foreground whitespace-nowrap">
-              10
-            </TableCell>
-          </TableRow>
-        </TableBody>
-      </Table>
+                  <div className="grid grid-cols-2 gap-4 mt-6">
+                    <div>
+                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">
+                        Safe Marks
+                      </h4>
+                      <p className="text-muted-foreground">75+</p>
+                    </div>
+                    <div>
+                      <h4 className="font-secondary font-semibold text-brand-blue mb-1">
+                        Duration
+                      </h4>
+                      <p className="text-muted-foreground">100 + 40 Min</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-2 mt-6">
+                    <div className="flex items-start space-x-2">
+                      <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-muted-foreground">
+                        Detailed structure of each USAT type is given with each individual guide of each USAT.
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-2">
+                      <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
+                      <p className="text-sm text-muted-foreground">
+                        Go to the related USAT you have decided to take for a detailed guide, with all resources you need.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
-  </div>
+  );
+};
 
-  {/* Quick Info Cards */}
-  <div className="grid grid-cols-2 gap-4">
-    <div className="bg-brand-light-gray/50 rounded-xl p-3 text-center">
-      <h4 className="font-secondary font-semibold text-brand-blue text-sm">
-        Safe Marks
-      </h4>
-      <p className="text-brand-orange font-bold text-lg mt-1">75+</p>
-    </div>
-    <div className="bg-brand-light-gray/50 rounded-xl p-3 text-center">
-      <h4 className="font-secondary font-semibold text-brand-blue text-sm">
-        Duration
-      </h4>
-      <p className="text-brand-orange font-bold text-lg mt-1">100 + 40 Min</p>
-    </div>
-  </div>
-
-  {/* Notes */}
-  <div className="space-y-3">
-    <div className="flex items-start space-x-2">
-      <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
-      <p className="text-sm text-muted-foreground leading-relaxed">
-        Detailed structure of each USAT type is given with each individual guide.
-      </p>
-    </div>
-    <div className="flex items-start space-x-2">
-      <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
-      <p className="text-sm text-muted-foreground leading-relaxed">
-        Visit the relevant USAT page you plan to take for a complete resource guide.
-      </p>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-              
 
 export default USAT;
