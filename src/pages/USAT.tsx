@@ -24,10 +24,15 @@ const USAT = () => {
   const [showModal, setShowModal] = useState(false);
 
   const scheduleData = [
-   const usatCategories = [
+
+
+const usatCategories = [
       <p className="font-primary text-muted-foreground text-sm">
                 The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
               </p>
+
+
+    
     {
       session: "Test 03",
       registration: "September 09, 2025",
