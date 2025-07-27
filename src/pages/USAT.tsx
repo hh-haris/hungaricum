@@ -377,10 +377,7 @@ const USAT = () => {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    <TableRow>
-                      <TableCell className="font-medium px-3 py-2">Total Marks</TableCell>
-                      <TableCell className="px-3 py-2">100</TableCell>
-                    </TableRow>
+                   
                     <TableRow>
                       <TableCell className="font-medium px-3 py-2">MCQs</TableCell>
                       <TableCell className="px-3 py-2">75</TableCell>
