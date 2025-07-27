@@ -352,6 +352,38 @@ const USAT = () => {
           </button>
         </div>
 
+
+{/* Modal for Overview Details */}
+<AnimatePresence>
+  {showModal && (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center p-4"
+      onClick={() => setShowModal(false)}
+    >
+      <motion.div
+        initial={{ scale: 0.9, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.9, opacity: 0 }}
+        transition={{ type: "spring", damping: 20 }}
+        className="bg-white rounded-2xl w-full max-w-sm max-h-[80vh] overflow-hidden"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Heading */}
+        <div className="p-4 border-b border-brand-gray flex justify-between items-center">
+          <h3 className="font-secondary font-bold text-lg text-brand-orange">
+            Details
+          </h3>
+          <button
+            onClick={() => setShowModal(false)}
+            className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
+          >
+            <X className="h-5 w-5" />
+          </button>
+        </div>
+
         {/* Modal Content */}
         <div className="p-4 overflow-y-auto max-h-96">
           <div className="space-y-5">
@@ -359,65 +391,67 @@ const USAT = () => {
               The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
             </p>
 
-            {/* Test Structure */}
+            {/* Test Structure Table */}
             <div className="space-y-2">
               <h4 className="font-secondary font-semibold text-brand-blue">
                 Test Structure
               </h4>
-              <div className="-mx-4">
-                <div className="overflow-x-auto">
-                  <Table className="w-full text-sm">
-                    <TableHeader>
-                      <TableRow className="bg-brand-light-green">
-                        <TableHead className="font-secondary font-semibold text-foreground text-left py-2">
-                          Component
-                        </TableHead>
-                        <TableHead className="font-secondary font-semibold text-foreground text-left py-2">
-                          Marks
-                        </TableHead>
-                      </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                      <TableRow>
-                        <TableCell className="font-medium">Total Marks</TableCell>
-                        <TableCell>100</TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell className="font-medium">MCQs</TableCell>
-                        <TableCell>75</TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell className="font-medium">Argumentative Essay</TableCell>
-                        <TableCell>15</TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell className="font-medium">Narrative Essay</TableCell>
-                        <TableCell>10</TableCell>
-                      </TableRow>
-                    </TableBody>
-                  </Table>
-                </div>
+              <div className="overflow-x-auto rounded-lg shadow-sm border border-gray-200">
+                <table className="min-w-full border-collapse">
+                  <thead>
+                    <tr className="bg-brand-light-green">
+                      <th className="text-left px-3 py-2 font-secondary font-semibold text-foreground rounded-tl-lg">
+                        Component
+                      </th>
+                      <th className="text-left px-3 py-2 font-secondary font-semibold text-foreground rounded-tr-lg">
+                        Marks
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="even:bg-gray-50">
+                      <td className="px-3 py-2 font-medium">Total Marks</td>
+                      <td className="px-3 py-2">100</td>
+                    </tr>
+                    <tr className="even:bg-gray-50">
+                      <td className="px-3 py-2 font-medium">MCQs</td>
+                      <td className="px-3 py-2">75</td>
+                    </tr>
+                    <tr className="even:bg-gray-50">
+                      <td className="px-3 py-2 font-medium">Argumentative Essay</td>
+                      <td className="px-3 py-2">15</td>
+                    </tr>
+                    <tr className="even:bg-gray-50">
+                      <td className="px-3 py-2 font-medium">Narrative Essay</td>
+                      <td className="px-3 py-2">10</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
 
             {/* Safe Marks & Duration */}
-            <div className="grid grid-cols-2 gap-4 mt-4">
-              <div>
-                <h4 className="font-secondary font-semibold text-brand-blue mb-0.5">
+            <div className="grid grid-cols-2 gap-6 mt-4">
+              <div className="space-y-1">
+                <h4 className="font-secondary font-semibold text-brand-blue text-sm">
                   Safe Marks
                 </h4>
-                <p className="text-muted-foreground text-sm">75+</p>
+                <p className="text-muted-foreground text-base font-medium">
+                  75+
+                </p>
               </div>
-              <div>
-                <h4 className="font-secondary font-semibold text-brand-blue mb-0.5">
+              <div className="space-y-1">
+                <h4 className="font-secondary font-semibold text-brand-blue text-sm">
                   Duration
                 </h4>
-                <p className="text-muted-foreground text-sm">100 + 40 Min</p>
+                <p className="text-muted-foreground text-base font-medium">
+                  100 + 40 Min
+                </p>
               </div>
             </div>
 
             {/* Notes */}
-            <div className="space-y-2 mt-4">
+            <div className="space-y-3 mt-4">
               <div className="flex items-start space-x-2">
                 <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-sm text-muted-foreground leading-snug">
@@ -437,6 +471,9 @@ const USAT = () => {
     </motion.div>
   )}
 </AnimatePresence>
+
+
+        
   </div>
   );
 };
