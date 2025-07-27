@@ -398,21 +398,21 @@ const USAT = () => {
               </div>
             </div>
 
-          {/* Safe Marks & Duration */}
-<div className="grid grid-cols-2 gap-4 mt-6">
-  <div>
-    <h4 className="font-secondary font-semibold text-brand-blue text-sm leading-tight">
-      Safe Marks
-    </h4>
-    <p className="text-base font-bold text-brand-orange">75+</p>
-  </div>
-  <div>
-    <h4 className="font-secondary font-semibold text-brand-blue text-sm leading-tight">
-      Duration
-    </h4>
-    <p className="text-base font-bold text-brand-orange">100 + 40 Min</p>
-  </div>
-</div>
+            {/* Safe Marks & Duration */}
+            <div className="grid grid-cols-2 gap-4 mt-6">
+              <div className="bg-brand-light-green/30 rounded-xl p-3 shadow-sm text-center">
+                <h4 className="font-secondary font-semibold text-brand-blue mb-1 text-base">
+                  ✅ Safe Marks
+                </h4>
+                <p className="text-xl font-bold text-brand-orange">75+</p>
+              </div>
+              <div className="bg-brand-light-green/30 rounded-xl p-3 shadow-sm text-center">
+                <h4 className="font-secondary font-semibold text-brand-blue mb-1 text-base">
+                  ⏳ Duration
+                </h4>
+                <p className="text-xl font-bold text-brand-orange">100 + 40 Min</p>
+              </div>
+            </div>
 
             {/* Notes */}
             <div className="space-y-2 mt-6">
