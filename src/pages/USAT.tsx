@@ -366,20 +366,20 @@ const USAT = () => {
                     <h4 className="font-secondary font-semibold text-brand-blue mb-2">
                       Test Structure
                     </h4>
-                    <ul className="divide-y divide-gray-100">
-                      <li className="flex justify-between py-2 text-sm">
+                    <ul className="w-full divide-y divide-gray-100 border-t border-b border-gray-100">
+                      <li className="flex justify-between py-2 text-sm sm:text-base">
                         <span className="font-medium text-foreground">Total Marks</span>
                         <span className="text-muted-foreground">100</span>
                       </li>
-                      <li className="flex justify-between py-2 text-sm">
+                      <li className="flex justify-between py-2 text-sm sm:text-base">
                         <span className="font-medium text-foreground">MCQs</span>
                         <span className="text-muted-foreground">75</span>
                       </li>
-                      <li className="flex justify-between py-2 text-sm">
+                      <li className="flex justify-between py-2 text-sm sm:text-base">
                         <span className="font-medium text-foreground">Argumentative Essay</span>
                         <span className="text-muted-foreground">15</span>
                       </li>
-                      <li className="flex justify-between py-2 text-sm">
+                      <li className="flex justify-between py-2 text-sm sm:text-base">
                         <span className="font-medium text-foreground">Narrative Essay</span>
                         <span className="text-muted-foreground">10</span>
                       </li>
@@ -387,18 +387,20 @@ const USAT = () => {
                   </div>
 
                   {/* Safe Marks and Duration */}
-                  <div className="grid grid-cols-2 gap-3 mt-6 sm:gap-6">
-                    <div className="p-3 rounded-lg bg-brand-light-gray text-center">
+                  <div className="grid grid-cols-2 gap-4 mt-6 text-center">
+                    <div>
                       <h4 className="font-secondary font-semibold text-brand-blue text-sm mb-1">
                         Safe Marks
                       </h4>
-                      <p className="text-lg font-bold text-brand-orange">75+</p>
+                      <p className="text-lg sm:text-xl font-bold text-brand-orange">75+</p>
                     </div>
-                    <div className="p-3 rounded-lg bg-brand-light-gray text-center">
+                    <div>
                       <h4 className="font-secondary font-semibold text-brand-blue text-sm mb-1">
                         Duration
                       </h4>
-                      <p className="text-lg font-bold text-brand-orange">100 + 40 Min</p>
+                      <p className="text-lg sm:text-xl font-bold text-brand-orange">
+                        100 + 40 Min
+                      </p>
                     </div>
                   </div>
 
