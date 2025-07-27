@@ -36,7 +36,7 @@ const USAT = () => {
       session: "Test 04",
       registration: "November 10, 2025",
       rollNoSlip: "November 29, 2025",
-      testDate: "January 15, 2025",
+      testDate: "December 07, 2025",
       resultDate: "January 15, 2025"
     }
   ];
