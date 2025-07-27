@@ -352,7 +352,6 @@ const USAT = () => {
           </button>
         </div>
 
-
 {/* Modal for Overview Details */}
 <AnimatePresence>
   {showModal && (
@@ -409,19 +408,19 @@ const USAT = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="even:bg-gray-50">
+                    <tr>
                       <td className="px-3 py-2 font-medium">Total Marks</td>
                       <td className="px-3 py-2">100</td>
                     </tr>
-                    <tr className="even:bg-gray-50">
+                    <tr className="bg-gray-50">
                       <td className="px-3 py-2 font-medium">MCQs</td>
                       <td className="px-3 py-2">75</td>
                     </tr>
-                    <tr className="even:bg-gray-50">
+                    <tr>
                       <td className="px-3 py-2 font-medium">Argumentative Essay</td>
                       <td className="px-3 py-2">15</td>
                     </tr>
-                    <tr className="even:bg-gray-50">
+                    <tr className="bg-gray-50">
                       <td className="px-3 py-2 font-medium">Narrative Essay</td>
                       <td className="px-3 py-2">10</td>
                     </tr>
@@ -472,10 +471,8 @@ const USAT = () => {
   )}
 </AnimatePresence>
 
-
-        
-  </div>
-  );
+</div>
+);
 };
 
 export default USAT;
