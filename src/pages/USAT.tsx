@@ -353,88 +353,99 @@ const USAT = () => {
               
 
               <div className="p-4 border-b border-brand-gray flex justify-between items-center">
-                <h3 className="font-secondary font-bold text-lg sm:text-xl text-brand-orange">
+                <h3 className="font-secondary font-bold text-lg text-brand-orange">
                   Details
                 </h3>
                 <button
                   onClick={() => setShowModal(false)}
-                  className="p-2 hover:bg-brand-light-gray rounded-full smooth-transition"
+                  className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
                 >
                   <X className="h-5 w-5" />
                 </button>
               </div>
 
-              <div className="p-4 sm:p-6 overflow-y-auto max-h-[80vh]">
-                <div className="space-y-6">
-                  <p className="font-primary text-muted-foreground text-sm sm:text-base leading-relaxed">
+              <div className="p-4 overflow-y-auto max-h-96">
+                <div className="space-y-4">
+                  <p className="font-primary text-muted-foreground text-sm leading-relaxed">
                     The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
                   </p>
 
-                  {/* Test Structure */}
-                  <div>
-                    <h4 className="font-secondary font-semibold text-brand-blue text-base sm:text-lg mb-3">
+                  {/* Marks List */}
+                  <div className="space-y-2">
+                    <h4 className="font-secondary font-semibold text-brand-blue mb-2">
                       Test Structure
                     </h4>
-                    <ul className="w-full divide-y divide-gray-200 border-t border-b border-gray-200 rounded-md overflow-hidden">
-                      <li className="flex justify-between items-center py-3 px-2 sm:px-3 text-sm sm:text-base">
+                    <ul className="w-full divide-y divide-gray-100 border-t border-b border-gray-100">
+                      <li className="flex justify-between py-2 text-sm sm:text-base">
                         <span className="font-medium text-foreground">Total Marks</span>
-                        <span className="text-muted-foreground font-semibold">100</span>
+                        <span className="text-muted-foreground">100</span>
                       </li>
-                      <li className="flex justify-between items-center py-3 px-2 sm:px-3 text-sm sm:text-base">
+                      <li className="flex justify-between py-2 text-sm sm:text-base">
                         <span className="font-medium text-foreground">MCQs</span>
-                        <span className="text-muted-foreground font-semibold">75</span>
+                        <span className="text-muted-foreground">75</span>
                       </li>
-                      <li className="flex justify-between items-center py-3 px-2 sm:px-3 text-sm sm:text-base">
+                      <li className="flex justify-between py-2 text-sm sm:text-base">
                         <span className="font-medium text-foreground">Argumentative Essay</span>
-                        <span className="text-muted-foreground font-semibold">15</span>
+                        <span className="text-muted-foreground">15</span>
                       </li>
-                      <li className="flex justify-between items-center py-3 px-2 sm:px-3 text-sm sm:text-base">
+                      <li className="flex justify-between py-2 text-sm sm:text-base">
                         <span className="font-medium text-foreground">Narrative Essay</span>
-                        <span className="text-muted-foreground font-semibold">10</span>
+                        <span className="text-muted-foreground">10</span>
                       </li>
                     </ul>
                   </div>
 
                   {/* Safe Marks and Duration */}
-                  <div className="grid grid-cols-2 gap-6 sm:gap-8 mt-4 sm:mt-6">
-                    <div className="text-center">
-                      <h4 className="font-secondary font-medium text-brand-blue text-sm sm:text-base mb-1">
+                  <div className="grid grid-cols-2 gap-4 mt-6 text-center">
+                    <div>
+                      <h4 className="font-secondary font-semibold text-brand-blue text-sm mb-1">
                         Safe Marks
                       </h4>
-                      <p className="text-xl sm:text-2xl font-bold text-brand-orange tracking-wide">
-                        75+
-                      </p>
+                      <p className="text-lg sm:text-xl font-bold text-brand-orange">75+</p>
                     </div>
-                    <div className="text-center">
-                      <h4 className="font-secondary font-medium text-brand-blue text-sm sm:text-base mb-1">
+                    <div>
+                      <h4 className="font-secondary font-semibold text-brand-blue text-sm mb-1">
                         Duration
                       </h4>
-                      <p className="text-xl sm:text-2xl font-bold text-brand-orange tracking-wide">
+                      <p className="text-lg sm:text-xl font-bold text-brand-orange">
                         100 + 40 Min
                       </p>
                     </div>
                   </div>
 
                   {/* Notes */}
-                  <div className="space-y-3 mt-6">
-                    <div className="flex items-start space-x-3">
+                  <div className="space-y-2 mt-6">
+                    <div className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
-                      <p className="text-sm sm:text-base text-muted-foreground leading-snug">
+                      <p className="text-sm text-muted-foreground leading-snug">
                         Detailed structure of each USAT type is given with each individual guide of each USAT.
                       </p>
                     </div>
-                    <div className="flex items-start space-x-3">
+                    <div className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
-                      <p className="text-sm sm:text-base text-muted-foreground leading-snug">
-                        Go to the related USAT you have decided to take for a detailed guide with all resources you need.
+                      <p className="text-sm text-muted-foreground leading-snug">
+                        Go to the related USAT you have decided to take for a detailed guide, with all resources you need.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+};
 
 
               
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+};
 
 export default USAT;
