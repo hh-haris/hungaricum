@@ -321,7 +321,7 @@ const USAT = () => {
         </div>
       </main>
 
-      {/* Modal for Overview Details */}
+           {/* Modal for Overview Details */}
       <AnimatePresence>
         {showModal && (
           <motion.div
@@ -339,18 +339,6 @@ const USAT = () => {
               className="bg-white rounded-2xl w-full max-w-sm max-h-[80vh] overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="p-4 border-b border-brand-gray flex justify-between items-center">
-                <h3 className="font-secondary font-bold text-lg text-brand-orange">
-                  Details
-                </h3>
-                <button
-                  onClick={() => setShowModal(false)}
-                  className="p-1 hover:bg-brand-light-gray rounded-full smooth-transition"
-                >
-                  <X className="h-5 w-5" />
-                </button>
-   
-              
               <div className="p-4 border-b border-brand-gray flex justify-between items-center">
                 <h3 className="font-secondary font-bold text-lg text-brand-orange">
                   Details
@@ -408,7 +396,6 @@ const USAT = () => {
                     </div>
                   </div>
 
-                  {/* Safe Marks & Duration */}
                   <div className="grid grid-cols-2 gap-4 mt-6">
                     <div>
                       <h4 className="font-secondary font-semibold text-brand-blue mb-1">
@@ -420,11 +407,10 @@ const USAT = () => {
                       <h4 className="font-secondary font-semibold text-brand-blue mb-1">
                         Duration
                       </h4>
-                      <p className="text-muted-foreground">100 + 40 min</p>
+                      <p className="text-muted-foreground">100 + 40 Min</p>
                     </div>
                   </div>
 
-                  {/* Extra Notes */}
                   <div className="space-y-2 mt-6">
                     <div className="flex items-start space-x-2">
                       <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
@@ -441,10 +427,6 @@ const USAT = () => {
                   </div>
                 </div>
               </div>
-
-
-
-              
             </motion.div>
           </motion.div>
         )}
