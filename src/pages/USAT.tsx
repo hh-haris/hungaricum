@@ -24,22 +24,7 @@ const USAT = () => {
   const [showModal, setShowModal] = useState(false);
 
   const scheduleData = [
-    {
-      session: "Test 01",
-      registration: "April 03, 2025",
-      rollNoSlip: "April 16, 2025",
-      testDate: "April 27, 2025",
-      keyPublish: "Within 2-4 days",
-      resultDate: "May 19, 2025"
-    },
-    {
-      session: "Test 02",
-      registration: "June 12, 2025",
-      rollNoSlip: "November 15, 2024",
-      testDate: "November 15, 2024",
-      keyPublish: "November 15, 2024",
-      resultDate: "November 15, 2024"
-    },
+   
     {
       session: "Test 03",
       registration: "December 15, 2024",
