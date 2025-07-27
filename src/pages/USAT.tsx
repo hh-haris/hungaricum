@@ -29,7 +29,7 @@ const USAT = () => {
       registration: "April 03, 2025",
       rollNoSlip: "April 16, 2025",
       testDate: "April 27, 2025",
-      keyPublish: "October 15, 2024",
+      keyPublish: "Within 2-4 days",
       resultDate: "October 15, 2024"
     },
     {
