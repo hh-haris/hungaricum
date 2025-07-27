@@ -66,12 +66,7 @@ const USATEngineering = () => {
             transition={{ duration: 0.6 }}
             className="space-y-8"
           >
-            {/* Banner */}
-            <div className="relative w-full h-48 rounded-2xl overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=400&fit=crop"
-                alt="Engineering"
-                className="w-full h-full object-cover"
+           
               />
             </div>
 
