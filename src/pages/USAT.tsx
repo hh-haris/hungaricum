@@ -203,9 +203,6 @@ const USAT = () => {
 
             {/* Registration Guide */}
             <div className="space-y-4">
-              <h2 className="font-secondary font-semibold text-xl text-brand-blue">
-                Registration Guide
-              </h2>
               
               <Link to="/usat/registration-guide">
                 <Card className="cursor-pointer hover:shadow-lg smooth-transition">
