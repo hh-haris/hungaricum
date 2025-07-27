@@ -279,8 +279,8 @@ const USATArts = () => {
                 <Card className="cursor-pointer hover:shadow-lg smooth-transition" onClick={() => setShowPastPapers(true)}>
                   <CardContent className="p-0">
                     <div className="relative w-full h-32 rounded-lg overflow-hidden">
-                      <img src="Past Papers.jpg" alt="Past Papers" className="w-full h-full object-cover" />
-                    </div>
+                     <img src="/Past Papers.jpg" alt="Past Papers" className="w-full h-full object-cover" />
+                  </div>
                   </CardContent>
                 </Card>
 
