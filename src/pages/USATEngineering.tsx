@@ -145,10 +145,7 @@ const TestFormatMobile = () => {
         </div>
       </div>
     </div>
-  );
-};
-
-export default TestFormatMobile;
+ 
 
 
 
