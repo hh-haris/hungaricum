@@ -239,7 +239,7 @@ const USAT = () => {
                 USAT Categories
               </h2>
               <p className="font-primary text-muted-foreground text-sm">
-             Guides for each USAT category are provided, detailing everything you need for preparation. There are a total of six USAT categories. It is advised to select the USAT category that aligns with the subject in which you completed your FSc, FA, or equivalent qualification.
+             Guides for each USAT category are provided, detailing everything you need for preparation. It is advised to select the USAT category that aligns with the subject in which you completed your FSc, FA, or equivalent qualification.
               </p>
               
               <Carousel
