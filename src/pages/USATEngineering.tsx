@@ -187,19 +187,19 @@ const USATEngineering = () => {
                   <div className="bg-brand-light-green rounded-lg p-3">
                     <div className="flex justify-between">
                       <span className="font-primary font-medium">Physics</span>
-                      <span className="font-primary font-medium">15 MCQs</span>
+                      <span className="font-primary font-medium">10 MCQs</span>
                     </div>
                   </div>
                   <div className="bg-brand-light-green rounded-lg p-3">
                     <div className="flex justify-between">
                       <span className="font-primary font-medium">Chemistry</span>
-                      <span className="font-primary font-medium">15 MCQs</span>
+                      <span className="font-primary font-medium">10 MCQs</span>
                     </div>
                   </div>
                   <div className="bg-brand-light-green rounded-lg p-3">
                     <div className="flex justify-between">
                       <span className="font-primary font-medium">Mathematics</span>
-                      <span className="font-primary font-medium">15 MCQs</span>
+                      <span className="font-primary font-medium">10 MCQs</span>
                     </div>
                   </div>
                 </div>
