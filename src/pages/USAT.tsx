@@ -239,7 +239,7 @@ const USAT = () => {
                 USAT Categories
               </h2>
               <p className="font-primary text-muted-foreground text-sm">
-                There are 6 categories of USAT, you can take any except if you are medical student, but it advised to take the same USAT that you studied in your FSc.
+               Comprehensive guides are provided for each USAT category, covering everything you need to know for preparation. There are a total of six categories that applicants can choose from. It is advised to select the category that matches the subject area in which you completed your FSc, FA, or an equivalent qualification.
               </p>
               
               <Carousel
