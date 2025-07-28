@@ -415,7 +415,7 @@ const USAT = () => {
               <div className="flex items-start space-x-2">
                 <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-sm text-muted-foreground">
-                  Detailed structure of each USAT type is given with each individual guide of each USAT.
+                 This section provides general information about the USAT including its duration and format. A detailed structure for each USAT category is available on its respective page.
                 </p>
               </div>
               <div className="flex items-start space-x-2">
