@@ -432,7 +432,7 @@ const USAT = () => {
 <div className="flex items-start space-x-2">
                 <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-sm text-muted-foreground">
-                  You are given a sheet for essay writing that contains three pages (One sheet, front and back counts as two pages). On the first two pages, you will write an argumentative essay and on the third page, a narrative essay. Both essays can be written in either Urdu or English and your choice of language does not affect your marks.
+                 The passing score is 50 but a score of 75 or more is usually considered safe for getting nominated for SHS.
 
 
                 </p>
