@@ -77,80 +77,58 @@ const USATEngineering = () => {
              
             </div>
 
-
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronUp } from 'lucide-react'; // Ensure this is correctly imported or replaced
-
-const TestFormatMobile = () => {
-  const [expandedSection, setExpandedSection] = useState<string | null>(null);
-
-  const toggleSection = (section: string) => {
-    setExpandedSection(prev => (prev === section ? null : section));
-  };
-
-  const verbalMCQs = [
-    { label: 'Analogy', count: '05 MCQs' },
-    { label: 'Synonym/Antonym', count: '04 MCQs' },
-    { label: 'Sentence Completion', count: '06 MCQs' },
-    { label: 'Comprehension', count: '05 MCQs' },
-  ];
-
-  return (
-    <div className="space-y-6 px-4 py-6 sm:px-6">
-      <h2 className="font-secondary font-semibold text-2xl text-brand-blue text-center sm:text-left">
-        Test Format
-      </h2>
-
-      <div className="space-y-5">
-        <h3 className="font-secondary font-semibold text-lg text-brand-orange">MCQs</h3>
-
-        {/* Verbal Reasoning - Expandable */}
-        <div className="space-y-3">
-          <div
-            className="bg-brand-light-green rounded-xl px-4 py-3 flex justify-between items-center shadow-sm transition duration-200 active:scale-[0.98] cursor-pointer"
-            onClick={() => toggleSection('verbal')}
-          >
-            <span className="font-primary font-medium text-sm sm:text-base">Verbal Reasoning</span>
-            <div className="flex items-center space-x-2">
-              <span className="font-primary font-medium text-xs sm:text-sm">20 MCQs</span>
-              <ChevronUp
-                className={`h-4 w-4 transform transition-transform duration-300 ${
-                  expandedSection === 'verbal' ? 'rotate-180' : ''
-                }`}
-              />
-            </div>
-          </div>
-
-          <AnimatePresence>
-            {expandedSection === 'verbal' && (
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: 'auto', opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
-                transition={{ duration: 0.4 }}
-                className="overflow-hidden pl-4 pr-2"
-              >
-                <div className="space-y-2 pt-2">
-                  {verbalMCQs.map((item, index) => (
-                    <div className="flex justify-between items-center" key={index}>
-                      <span className="font-primary text-muted-foreground text-sm">{item.label}</span>
-                      <span className="font-primary text-muted-foreground text-sm">{item.count}</span>
+            {/* Test Format */}
+            <div className="space-y-4">
+              <h2 className="font-secondary font-semibold text-xl text-brand-blue">
+                Test Format
+              </h2>
+              
+              <div className="space-y-4">
+                <h3 className="font-secondary font-semibold text-lg text-brand-orange">MCQs</h3>
+                
+                {/* Verbal Reasoning - Expandable */}
+                <div className="space-y-2">
+                  <div className="bg-brand-light-green rounded-lg p-3 cursor-pointer" onClick={() => toggleSection('verbal')}>
+                    <div className="flex justify-between items-center">
+                      <span className="font-primary font-medium">Verbal Reasoning</span>
+                      <div className="flex items-center space-x-2">
+                        <span className="font-primary font-medium">20 MCQs</span>
+                        <ChevronUp className={`h-4 w-4 transition-transform ${expandedSection === 'verbal' ? 'rotate-180' : ''}`} />
+                      </div>
                     </div>
-                  ))}
+                  </div>
+                  
+                  <AnimatePresence>
+                    {expandedSection === 'verbal' && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="overflow-hidden ml-4"
+                      >
+                        <div className="space-y-2">
+                          <div className="flex justify-between">
+                            <span className="font-primary text-muted-foreground text-sm">Analogy</span>
+                            <span className="font-primary text-muted-foreground text-sm">05 MCQs</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="font-primary text-muted-foreground text-sm">Synonym/Antonym</span>
+                            <span className="font-primary text-muted-foreground text-sm">04 MCQs</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="font-primary text-muted-foreground text-sm">Sentence Completion</span>
+                            <span className="font-primary text-muted-foreground text-sm">06 MCQs</span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="font-primary text-muted-foreground text-sm">Comprehension</span>
+                            <span className="font-primary text-muted-foreground text-sm">05 MCQs</span>
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </div>
-      </div>
-    </div>
- 
-
-
-
-
-            
 
                 {/* Quantitative Reasoning - Expandable */}
                 <div className="space-y-2">
