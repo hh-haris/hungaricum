@@ -355,9 +355,7 @@ const USAT = () => {
         {/* Modal Content */}
         <div className="p-4 overflow-y-auto max-h-96">
           <div className="space-y-4">
-            <p className="font-primary text-muted-foreground text-sm">
-              The Undergraduate Studies Admission/Aptitude Test (USAT) is the first and most important step in the SHS process. It is the key criterion on which HEC nominates candidates, making it the most critical phase of the entire selection journey.
-            </p>
+         
 
             {/* Marks Table */}
             <div className="space-y-2">
