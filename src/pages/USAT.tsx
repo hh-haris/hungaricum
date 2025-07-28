@@ -421,7 +421,9 @@ const USAT = () => {
               <div className="flex items-start space-x-2">
                 <div className="w-2 h-2 bg-brand-orange rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-sm text-muted-foreground">
-                  Go to the related USAT you have decided to take for a detailed guide with all resources you need.
+                  The test includes three pages (One sheet, front and back counts as two pages) for essay writing. On the first two pages, you will write an argumentative essay and on the third page, a narrative essay. Both essays can be written in either Urdu or English and your choice of language does not affect your marks.
+
+
                 </p>
               </div>
             </div>
