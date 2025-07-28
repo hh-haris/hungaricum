@@ -74,9 +74,7 @@ const USATEngineering = () => {
               <h1 className="font-secondary font-bold text-2xl text-brand-orange">
                 USAT Engineering
               </h1>
-              <p className="font-primary text-muted-foreground text-sm">
-                Undergraduate Studies Aptitude Test for Engineering, is the basic requirement for applying this scholarship.
-              </p>
+             
             </div>
 
             {/* Test Format */}
